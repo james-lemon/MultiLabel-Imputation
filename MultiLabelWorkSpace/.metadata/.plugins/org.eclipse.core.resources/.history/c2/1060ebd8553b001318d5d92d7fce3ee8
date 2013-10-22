@@ -1,0 +1,35 @@
+package example;
+
+import java.io.FileReader;
+
+import mulan.classifier.MultiLabelOutput;
+import mulan.classifier.meta.RAkEL;
+import mulan.classifier.transformation.LabelPowerset;
+import mulan.data.MultiLabelInstances;
+import mulan.evaluation.Evaluation;
+import mulan.evaluation.Evaluator;
+import weka.classifiers.trees.J48;
+import weka.core.Instance;
+import weka.core.Instances;
+import weka.core.Utils;
+
+
+public class MulanExample1 {
+
+    public static void main(String[] args) throws Exception {
+        MultiLabelInstances dataset = new MultiLabelInstances("data/yeast/yeast-train.arff", "data/yeast/yeast.xml");
+
+        RAkEL model = new RAkEL(new LabelPowerset(new J48()));
+
+        System.out.println("Building dataset");
+        model.build(dataset);
+        
+        MultiLabelInstances instances= new MultiLabelInstances("data/yeast/yeast-train.arff", "data/yeast/yeast.xml");
+        
+        Evaluator evaluator = new Evaluator();
+        Evaluation results = evaluator.evaluate(model, instances);
+        
+       System.out.println(results.toString());
+    }
+}
+
