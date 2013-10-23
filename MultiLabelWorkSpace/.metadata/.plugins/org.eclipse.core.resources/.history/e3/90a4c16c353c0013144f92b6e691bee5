@@ -1,0 +1,11 @@
+
+import mulan.data.MultiLabelInstances;
+package Imputation;
+
+public class MissingValueGenerator {
+
+	public static MultiLabelInstances Create(MultiLabelInstances completeDataset, double RatioOfMissingValues)
+	{
+		
+	}
+}

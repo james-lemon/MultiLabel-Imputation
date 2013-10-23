@@ -1,0 +1,21 @@
+package example;
+
+import Imputation.MissingValueGenerator;
+import mulan.classifier.meta.RAkEL;
+import mulan.classifier.transformation.LabelPowerset;
+import mulan.data.MultiLabelInstances;
+import mulan.evaluation.Evaluation;
+import mulan.evaluation.Evaluator;
+import weka.classifiers.trees.J48;
+
+
+public class MulanExample2GeneratingMissingValues {
+
+    public static void main(String[] args) throws Exception {
+        MultiLabelInstances dataset = new MultiLabelInstances("data/yeast/yeast.arff", "data/yeast/yeast.xml");
+
+        MultiLabelInstances missingDataset = MissingValueGenerator.Create(dataset, .2);
+        System.out.println(missingDataset.toString());
+    }
+}
+
