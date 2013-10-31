@@ -1,0 +1,10 @@
+package Imputation;
+
+import java.util.ArrayList;
+
+public class MissingValueMultiLabelDatasetMetaDataset {
+
+	public int NumberMissingLabels;
+	public ArrayList<String> MissingLabels;
+	
+}

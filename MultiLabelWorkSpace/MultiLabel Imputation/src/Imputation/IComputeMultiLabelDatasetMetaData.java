@@ -1,0 +1,19 @@
+package Imputation;
+
+import java.util.ArrayList;
+
+import mulan.data.MultiLabelInstances;
+
+public interface IComputeMultiLabelDatasetMetaData {
+
+	/*
+	 * Construction will probably include a MultiLabelInstances input, and stored as an internal attribute
+	 * 
+	 */
+	
+	//Will Generate MissingValueMultiLabelDatasetMetaDataset based on MultiLabelInstances
+	MissingValueMultiLabelDatasetMetaDataset calculate();
+	
+	//Will change Missing values to Imputated values, and store their guesses in the MultiLabelInstances
+	MissingValueMultiLabelDatasetMetaDataset addImputatedLabels(ArrayList<String> Labels, ArrayList<ArrayList<String>> Values);
+}

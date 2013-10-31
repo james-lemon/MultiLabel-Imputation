@@ -3,4 +3,9 @@
 <fullyQualifiedTypeName name="weka.core.Instances"/>
 <fullyQualifiedTypeName name="java.util.Random"/>
 <fullyQualifiedTypeName name="Imputation.MissingValueGenerator"/>
+<fullyQualifiedTypeName name="weka.classifiers.trees.RandomForest"/>
+<fullyQualifiedTypeName name="mulan.evaluation.Evaluation"/>
+<fullyQualifiedTypeName name="java.util.ArrayList"/>
+<fullyQualifiedTypeName name="weka.core.Instance"/>
+<fullyQualifiedTypeName name="mulan.data.MultiLabelInstances"/>
 </qualifiedTypeNameHistroy>

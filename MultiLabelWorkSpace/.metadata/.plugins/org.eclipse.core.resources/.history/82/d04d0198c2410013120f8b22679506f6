@@ -1,0 +1,7 @@
+package Imputation;
+
+public interface IComputeMultiLabelDatasetMetaData {
+
+	MissingValueMultiLabelDatasetMetaDataset calculate();
+	MissingValueMultiLabelDatasetMetaDataset addImputatedLabels(ArrayList<String> Labels);
+}

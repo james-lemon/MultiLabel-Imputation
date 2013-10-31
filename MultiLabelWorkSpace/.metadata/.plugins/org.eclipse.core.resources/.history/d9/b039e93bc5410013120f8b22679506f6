@@ -1,0 +1,6 @@
+package MultiLabel;
+
+public interface IDivideDataset {
+
+	
+}

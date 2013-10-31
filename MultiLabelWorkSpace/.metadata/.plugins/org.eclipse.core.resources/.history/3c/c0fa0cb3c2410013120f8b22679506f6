@@ -1,0 +1,12 @@
+package Imputation;
+
+import java.util.ArrayList;
+
+public interface IComputeMultiLabelDatasetMetaData {
+
+	IComputeMultiLabelDatasetMetaData();
+	
+	MissingValueMultiLabelDatasetMetaDataset calculate();
+	
+	MissingValueMultiLabelDatasetMetaDataset addImputatedLabels(ArrayList<String> Labels);
+}

@@ -1,0 +1,7 @@
+package Imputation;
+
+public class MissingValueMultiLabelDatasetMetaDataset {
+
+	public int numMissingLabels;
+	
+}

@@ -4,6 +4,7 @@ import java.util.Random;
 
 import weka.core.Instances;
 import mulan.data.InvalidDataFormatException;
+import mulan.data.LabelsMetaData;
 import mulan.data.MultiLabelInstances;
 
 
@@ -15,7 +16,8 @@ public class MissingValueGenerator {
 		int[] Labels = completeDataset.getLabelIndices();
 		int numLabels = completeDataset.getNumLabels();
 		int numInstances = completeDataset.getNumInstances();
-		Instances instances = completeDataset.getDataSet();
+		LabelsMetaData metaData = completeDataset.getLabelsMetaData();
+		Instances instances = new Instances(completeDataset.getDataSet());
 		Random randomGenerator = new Random();
 		
 		for(int i = 0; i < numInstances; i++)
@@ -29,7 +31,7 @@ public class MissingValueGenerator {
 			}
 		}
 		try {
-			return completeDataset.reintegrateModifiedDataSet(instances);
+			return new MultiLabelInstances(instances, metaData);
 		} catch (InvalidDataFormatException e) {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
