@@ -15,5 +15,5 @@ public interface IComputeMultiLabelDatasetMetaData {
 	MissingValueMultiLabelDatasetMetaDataset calculate();
 	
 	//Will change Missing values to Imputated values, and store their guesses in the MultiLabelInstances
-	MissingValueMultiLabelDatasetMetaDataset addImputatedLabels(ArrayList<String> Labels);
+	MissingValueMultiLabelDatasetMetaDataset addImputatedLabels(ArrayList<String> Labels, ArrayList<ArrayList<String>> Values);
 }
