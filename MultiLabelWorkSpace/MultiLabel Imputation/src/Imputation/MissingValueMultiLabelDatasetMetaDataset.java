@@ -1,4 +1,4 @@
-package Imputation;
+ package Imputation;
 
 import java.util.ArrayList;
 
@@ -8,7 +8,7 @@ public class MissingValueMultiLabelDatasetMetaDataset {
 
 	public MultiLabelInstances Dataset;
 	public int NumberOfMissingLabels;
-	public ArrayList<String> MissingLabels; //String Holds names of Labels with Missing values
-	public ArrayList<String> ImputatedLabels; //String holds names of Labels with imputated Values
-	public ArrayList<String> KnownLabels; //String holds names of labels with known values
+	public ArrayList<LocationOfLabelValue> MissingLabels; //String Holds names of Labels with Missing values
+	public ArrayList<LocationOfLabelValue> ImputatedLabels; //String holds names of Labels with imputated Values
+	public ArrayList<LocationOfLabelValue> KnownLabels; //String holds names of labels with known values
 }

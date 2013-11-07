@@ -1,0 +1,6 @@
+package Imputation;
+
+public class LocationOfLabelValueWithValues extends LocationOfLabelValue {
+
+	public boolean Value;
+}

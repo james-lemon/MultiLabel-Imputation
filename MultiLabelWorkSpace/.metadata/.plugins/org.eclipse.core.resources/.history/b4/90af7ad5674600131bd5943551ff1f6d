@@ -1,0 +1,28 @@
+package Imputation;
+
+import java.util.ArrayList;
+
+public class ComputeMultiLabelDatasetMetaData implements IComputeMultiLabelDatasetMetaData{
+
+	private MissingValueMultiLabelDatasetMetaDataset x;
+	public ComputerMultiLabelDatasetMetaData()
+	{
+		
+	}
+	@Override
+	public MissingValueMultiLabelDatasetMetaDataset calculate() {
+		// TODO Auto-generated method stub
+		
+		return null;
+	}
+
+	@Override
+	public MissingValueMultiLabelDatasetMetaDataset addImputatedLabels(
+			ArrayList<LocationOfMissingValues> Labels) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}

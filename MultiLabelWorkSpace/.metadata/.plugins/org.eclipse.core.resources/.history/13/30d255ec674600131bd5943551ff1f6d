@@ -1,0 +1,35 @@
+package Imputation;
+
+import java.util.ArrayList;
+
+import mulan.data.MultiLabelInstances;
+
+public class ComputeMultiLabelDatasetMetaData implements IComputeMultiLabelDatasetMetaData{
+
+	private MissingValueMultiLabelDatasetMetaDataset x;
+	public ComputeMultiLabelDatasetMetaData(MultiLabelInstances Muti_Instances)
+	{
+		x.Dataset = Muti_Instances;
+		x.NumberOfMissingLabels = 0;
+		x.MissingLabels = new ArrayList<LocationOfLabelValue>();
+		x.ImputatedLabels  = new ArrayList<LocationOfLabelValue>();
+		x
+
+	}
+	@Override
+	public MissingValueMultiLabelDatasetMetaDataset calculate() {
+		// TODO Auto-generated method stub
+		
+		return null;
+	}
+
+	@Override
+	public MissingValueMultiLabelDatasetMetaDataset addImputatedLabels(
+			ArrayList<LocationOfLabelValue> Labels) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}
