@@ -1,0 +1,9 @@
+package Imputation;
+
+import mulan.evaluation.Evaluation;
+
+public interface IExperiment {
+
+	
+	public Evaluation Run();
+}

@@ -1,5 +1,0 @@
-package MultiLabel;
-
-public interface IMergeDataset {
-
-}

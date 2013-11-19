@@ -1,0 +1,15 @@
+package Core;
+
+public class AICore {
+
+	public void run()
+	{
+		//DO Stuff
+	}
+	
+	public static void main(String args[])
+	{
+		AICore core = new AICore();
+		core.run();
+	}
+}

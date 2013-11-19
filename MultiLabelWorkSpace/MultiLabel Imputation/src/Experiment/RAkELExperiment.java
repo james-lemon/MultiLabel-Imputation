@@ -1,5 +1,6 @@
 package Experiment;
 
+import Imputation.IComputeMultiLabelDatasetMetaData;
 import Imputation.MissingValueGenerator;
 import weka.classifiers.Classifier;
 import weka.classifiers.trees.RandomForest;
@@ -9,9 +10,22 @@ import mulan.data.MultiLabelInstances;
 import mulan.evaluation.Evaluation;
 import mulan.evaluation.Evaluator;
 
-public class RAkELExperiment {
+public class RAkELExperiment{
 
-	public static Evaluation TryClassifer(Classifier classifer, MultiLabelInstances dataset, double ratio) throws Exception
+	private IComputeMultiLabelDatasetMetaData _metaData;
+	private MultiLabelInstances GRANDTRUTH;
+	private IPredictValues _predict;
+	
+	public RAkELExperiment(IComputeMultiLabelDatasetMetaData metaData, MultiLabelInstances grandTruth,
+			IPredictValues predict)
+	{
+		_metaData = metaData;
+		GRANDTRUTH = grandTruth;
+		_predict = predict;
+	}
+	
+	
+	public Evaluation Run(Classifier classifer, MultiLabelInstances dataset, double ratio) throws Exception
 	{
         MultiLabelInstances missingDataset = MissingValueGenerator.Create(dataset, ratio);
         RAkEL model = new RAkEL(new LabelPowerset(classifer));
@@ -22,4 +36,8 @@ public class RAkELExperiment {
         Evaluator evaluator = new Evaluator();
         return evaluator.evaluate(model, missingDataset);
 	}
+
+
+
+	
 }

@@ -1,0 +1,10 @@
+package Experiment;
+
+import weka.core.Instance;
+
+public class PredictionsWithExperiment{
+	
+	MultiLabelInstances data;
+	String experiementName;
+
+}

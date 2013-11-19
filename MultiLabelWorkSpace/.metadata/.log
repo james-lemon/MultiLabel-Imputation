@@ -117,3 +117,313 @@ org.eclipse.swt.SWTException: Widget is disposed
 	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
 	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
 	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+!SESSION 2013-11-03 11:44:46.419 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-11-03 11:44:50.199
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+!SESSION 2013-11-09 15:15:03.525 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-11-09 15:15:07.009
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.ui 4 0 2013-11-09 15:43:35.353
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DetachedDropAgent.drop(DetachedDropAgent.java:54)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DragAgent.dragFinished(DragAgent.java:159)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.PartDragAgent.dragFinished(PartDragAgent.java:105)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager.finishDrag(DnDManager.java:266)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager.startDrag(DnDManager.java:233)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager$1.dragDetected(DnDManager.java:88)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1392)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3742)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3363)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY org.eclipse.jface 2 0 2013-11-09 16:47:41.143
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-09 16:47:41.143
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6b69eb3,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@3f6cfd36,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.ui 4 0 2013-11-09 17:28:49.784
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DetachedDropAgent.drop(DetachedDropAgent.java:54)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DragAgent.dragFinished(DragAgent.java:159)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.PartDragAgent.dragFinished(PartDragAgent.java:105)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager.finishDrag(DnDManager.java:266)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager.startDrag(DnDManager.java:233)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager$1.dragDetected(DnDManager.java:88)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1392)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3742)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3363)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY org.eclipse.ui 4 0 2013-11-09 17:37:26.908
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DetachedDropAgent.drop(DetachedDropAgent.java:54)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DragAgent.dragFinished(DragAgent.java:159)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.PartDragAgent.dragFinished(PartDragAgent.java:105)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager.finishDrag(DnDManager.java:266)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager.startDrag(DnDManager.java:233)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager$1.dragDetected(DnDManager.java:88)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1392)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3742)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3363)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+
+!ENTRY org.eclipse.ui 4 0 2013-11-09 17:38:25.439
+!MESSAGE Unhandled event loop exception
+!STACK 0
+java.lang.NullPointerException
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DetachedDropAgent.drop(DetachedDropAgent.java:54)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DragAgent.dragFinished(DragAgent.java:159)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.PartDragAgent.dragFinished(PartDragAgent.java:105)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager.finishDrag(DnDManager.java:266)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager.startDrag(DnDManager.java:233)
+	at org.eclipse.e4.ui.workbench.addons.dndaddon.DnDManager$1.dragDetected(DnDManager.java:88)
+	at org.eclipse.swt.widgets.TypedListener.handleEvent(TypedListener.java:127)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1392)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:3742)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3363)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:57)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:606)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+	at org.eclipse.equinox.launcher.Main.main(Main.java:1426)
+!SESSION 2013-11-09 20:21:51.179 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.jface 2 0 2013-11-09 20:42:46.567
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-09 20:42:46.567
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@234396fa,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@2a6d092c,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2013-11-12 10:23:01.324 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.core.resources 2 10035 2013-11-12 10:23:24.014
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY org.eclipse.jdt.debug 4 125 2013-11-12 12:07:23.751
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1102)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:762)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1154)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:362)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 100 2013-11-12 12:07:23.754
+!MESSAGE Invalid stack frame
+
+!ENTRY org.eclipse.jface 2 0 2013-11-12 12:20:03.246
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-12 12:20:03.246
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@68d6c97b,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@6d45e002,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+!SESSION 2013-11-16 13:34:48.448 -----------------------------------------------
+eclipse.buildId=4.3.0.I20130605-2000
+java.version=1.7.0_25
+java.vendor=Oracle Corporation
+BootLoader constants: OS=linux, ARCH=x86_64, WS=gtk, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.standard.product
+Command-line arguments:  -os linux -ws gtk -arch x86_64 -product org.eclipse.epp.package.standard.product
+
+!ENTRY org.eclipse.jface 2 0 2013-11-16 13:59:25.009
+!MESSAGE Keybinding conflicts occurred.  They may interfere with normal accelerator operation.
+!SUBENTRY 1 org.eclipse.jface 2 0 2013-11-16 13:59:25.010
+!MESSAGE A conflict occurred for CTRL+D:
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.debug.ui.commands.eof,EOF,
+		Send end of file,
+		Category(org.eclipse.debug.ui.category.run,Run/Debug,Run/Debug command category,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@1e7bd158,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.debug.ui.console,,,system)
+Binding(CTRL+D,
+	ParameterizedCommand(Command(org.eclipse.ui.edit.text.delete.line,Delete Line,
+		Delete a line of text,
+		Category(org.eclipse.ui.category.textEditor,Text Editing,Text Editing Commands,true),
+		org.eclipse.ui.internal.WorkbenchHandlerServiceHandler@52ecf80a,
+		,,true),null),
+	org.eclipse.ui.defaultAcceleratorConfiguration,
+	org.eclipse.ui.textEditorScope,,,system)
+
+!ENTRY org.eclipse.jdt.debug 4 125 2013-11-16 14:11:33.463
+!MESSAGE Internal error logged from JDI Debug: 
+!STACK 1
+org.eclipse.debug.core.DebugException: Invalid stack frame
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingStackFrame(JDIStackFrame.java:1102)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getUnderlyingThisObject(JDIStackFrame.java:762)
+	at org.eclipse.jdt.internal.debug.core.model.JDIStackFrame.getThis(JDIStackFrame.java:1154)
+	at org.eclipse.jdt.internal.debug.ui.JavaDebugHover.getHoverInfo2(JavaDebugHover.java:362)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:163)
+	at org.eclipse.jdt.internal.ui.text.java.hover.BestMatchHover.getHoverInfo2(BestMatchHover.java:129)
+	at org.eclipse.jdt.internal.ui.text.java.hover.JavaEditorTextHoverProxy.getHoverInfo2(JavaEditorTextHoverProxy.java:85)
+	at org.eclipse.jface.text.TextViewerHoverManager$4.run(TextViewerHoverManager.java:166)
+!SUBENTRY 1 org.eclipse.jdt.debug 4 100 2013-11-16 14:11:33.468
+!MESSAGE Invalid stack frame

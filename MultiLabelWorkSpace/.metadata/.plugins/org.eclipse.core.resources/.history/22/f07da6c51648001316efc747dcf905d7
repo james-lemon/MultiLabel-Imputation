@@ -1,0 +1,13 @@
+package Experiment;
+
+import java.util.ArrayList;
+
+import mulan.classifier.InvalidDataException;
+import mulan.classifier.ModelInitializationException;
+import mulan.classifier.MultiLabelLearner;
+import weka.core.Instance;
+
+public interface IPredictValue {
+
+	ArrayList<LocationOfLabelWithVlaue> PredictValues(MultiLabelInstances instances) throws InvalidDataException, ModelInitializationException, Exception;
+}

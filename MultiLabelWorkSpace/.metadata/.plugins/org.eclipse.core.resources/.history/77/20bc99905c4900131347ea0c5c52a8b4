@@ -1,0 +1,18 @@
+package Imputation;
+
+import java.util.ArrayList;
+
+public class ArrayListExample {
+
+	public static void main(String[] args)
+	{
+		LocationOfMissingValues missingvalue1 = new LocationOfMissingValues();
+		missingvalue1.labelname = "Label1";
+		String storethevalue = missingvalue1.labelname;
+		ArrayList<LocationOfMissingValues> list = new ArrayList<LocationOfMissingValues>();
+		list.add(missingvalue1);
+		LocationOfMissingValues sameasvalue1 = list.get(0);
+		int numberofitemsinlist = list.size();
+		list.remove(0);
+	}
+}

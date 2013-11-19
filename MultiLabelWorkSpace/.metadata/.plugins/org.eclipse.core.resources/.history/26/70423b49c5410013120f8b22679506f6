@@ -1,9 +1,0 @@
-package MultiLabel;
-
-public interface IDivideDataset {
-
-	/*
-	 * Implementation will most likely include 
-	 */
-	
-}

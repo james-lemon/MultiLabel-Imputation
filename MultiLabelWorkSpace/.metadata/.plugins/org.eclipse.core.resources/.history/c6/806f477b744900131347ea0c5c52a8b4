@@ -1,0 +1,27 @@
+package Core;
+
+import java.util.ArrayList;
+
+import Experiment.EvaluationWithExperiment;
+
+public class AICore {
+
+	private ArrayList<MultiLabelInstances> datasets = new ArrayList<MultiLabelInstances>();
+	public void run()
+	{
+		ArrayList<EvaluationWithExperiment> resultsList = new ArrayList<EvaluationWithExperiment>();
+		//LoadData
+		//LoadPredicitionSet
+		//LoadExperimentSet
+		//
+		//
+	}
+	
+	public static void main(String args[])
+	{
+		AICore core = new AICore();
+		core.run();
+	}
+	
+	private 
+}

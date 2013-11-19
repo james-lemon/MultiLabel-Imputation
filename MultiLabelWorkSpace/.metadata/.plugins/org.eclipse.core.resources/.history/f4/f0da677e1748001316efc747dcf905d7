@@ -1,0 +1,12 @@
+package Experiment;
+
+import weka.core.Instance;
+
+public class PredictionsWithExperiment{
+	
+	String labelname;
+	Instance instance;
+	Boolean prediction;
+	String experiementName;
+
+}

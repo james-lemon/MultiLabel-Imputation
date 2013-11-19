@@ -1,0 +1,17 @@
+package predictionSets;
+
+import mulan.data.MultiLabelInstances;
+import Experiment.IPredictValues;
+import Experiment.PredictionsWithExperiment;
+
+public class RakelPredict implements IPredictValues {
+
+	public RakelPredict(String name, Classifer classifier)
+	{
+		
+	}
+	public PredictionsWithExperiment Run(MultiLabelInstances data) {
+		
+	}
+
+}

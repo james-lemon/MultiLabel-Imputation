@@ -1,0 +1,21 @@
+package predictionSets;
+
+import weka.classifiers.Classifier;
+import mulan.data.MultiLabelInstances;
+import Experiment.IPredictValues;
+import Experiment.PredictionsWithExperiment;
+
+public class RakelPredict implements IPredictValues {
+
+	private String _name;
+	private Classifier _classifer;
+	
+	public RakelPredict(String name, Classifier classifier)
+	{
+		_name = name;
+	}
+	public PredictionsWithExperiment Run(MultiLabelInstances data) {
+		
+	}
+
+}

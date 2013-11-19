@@ -1,0 +1,8 @@
+
+package Imputation;
+
+public class LocationOfMissingValues {
+
+	public String labelname;
+	public MultilabelInstance x;
+}

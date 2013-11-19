@@ -1,6 +1,8 @@
 package example;
 
+import Imputation.ComputeMultiLabelDatasetMetaData;
 import Imputation.MissingValueGenerator;
+import Imputation.MissingValueMultiLabelDatasetMetaDataset;
 import mulan.classifier.meta.RAkEL;
 import mulan.classifier.transformation.LabelPowerset;
 import mulan.data.MultiLabelInstances;
@@ -15,11 +17,11 @@ public class MulanExample2GeneratingMissingValues {
     public static void main(String[] args) throws Exception {
         MultiLabelInstances dataset = new MultiLabelInstances("data/yeast/yeast.arff", "data/yeast/yeast.xml");
 
-        MultiLabelInstances missingDataset = MissingValueGenerator.Create(dataset, .2);
+        MultiLabelInstances missingDataset = MissingValueGenerator.Create(dataset, .8);
         int[] Labels = dataset.getLabelIndices();
 		int numLabels = dataset.getNumLabels();
 		int numInstances = dataset.getNumInstances();
-		Instances instances = dataset.getDataSet();
+		Instances instances = missingDataset.getDataSet();
 		for(int i = 0; i < numInstances; i++)
 		{
 			for(int j = 0; j < numLabels; j++)
@@ -28,6 +30,9 @@ public class MulanExample2GeneratingMissingValues {
 			}
 			System.out.print("\n");
 		}
+		ComputeMultiLabelDatasetMetaData missingAfter = new ComputeMultiLabelDatasetMetaData(missingDataset);
+		MissingValueMultiLabelDatasetMetaDataset DataaboutTruth = missingAfter.calculate();
+		System.out.println(DataaboutTruth.NumberOfMissingLabels);
     }
 }
 

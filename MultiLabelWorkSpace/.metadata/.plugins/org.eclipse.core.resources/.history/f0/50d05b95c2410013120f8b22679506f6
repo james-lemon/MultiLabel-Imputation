@@ -1,6 +1,0 @@
-package Imputation;
-
-public interface IComputeMultiLabelDatasetMetaData {
-
-	MissingValueMultiLabelDatasetMetaDataset calculate();
-}

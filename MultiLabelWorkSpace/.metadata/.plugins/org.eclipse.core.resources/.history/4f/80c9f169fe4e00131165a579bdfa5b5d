@@ -1,0 +1,62 @@
+package predictionSets;
+
+import java.io.Reader;
+
+import weka.classifiers.Classifier;
+import weka.classifiers.trees.J48;
+import weka.core.Attribute;
+import weka.core.Instance;
+import weka.core.Instances;
+import mulan.classifier.MultiLabelOutput;
+import mulan.classifier.meta.RAkEL;
+import mulan.classifier.transformation.LabelPowerset;
+import mulan.data.MultiLabelInstances;
+import Experiment.IPredictValues;
+import Experiment.PredictionsWithExperiment;
+
+public class RakelPredict implements IPredictValues {
+
+	private String _name;
+	private Classifier _classifer;
+	
+	public RakelPredict(String name, Classifier classifier)
+	{
+		_name = name;
+		_classifer = classifier;
+	}
+	public PredictionsWithExperiment Run(MultiLabelInstances data) throws Exception {
+		  RAkEL model = new RAkEL(new LabelPowerset(_classifer));
+		  model.build(data);
+		  Instances predicitions = new Instances(data.getDataSet(), data.getDataSet().size());
+		  for(int i = 0 ; i < data.getDataSet().size(); i++)
+		  {
+			  Instance tmp = (Instance) data.getDataSet().get(i).copy();
+			  MultiLabelOutput prediction = model.makePrediction(tmp);
+			  for(int j = 0; j < data.getLabelsMetaData().getNumLabels(); j++)
+			  {				  
+				  String labelname = (String) data.getLabelsMetaData().getLabelNames().toArray()[j];
+			//	  System.out.println(labelname);
+				  Attribute classAttribute = data.getDataSet().attribute(labelname);
+				  data.getDataSet().setClass(classAttribute);
+				  if(tmp.isMissing(classAttribute))
+				  {
+					  if(prediction.getBipartition()[j])
+					  {
+						  tmp.setValue(classAttribute, "1");
+					  }
+					  else
+					  {
+						  tmp.setValue(classAttribute, "0");
+					  }
+				  }
+			  }
+			  predicitions.add(tmp);
+		  }
+		  MultiLabelInstances a = new MultiLabelInstances(predicitions, data.getLabelsMetaData());
+		  PredictionsWithExperiment output = new PredictionsWithExperiment();
+		  output.data = a;
+		  output.experiementName = _name;
+		  return output;
+	}
+
+}

@@ -11,7 +11,7 @@ import mulan.data.MultiLabelInstances;
 
 public class MissingValueGenerator {
 
-	public static MultiLabelInstances Create(MultiLabelInstances completeDataset, double RatioOfMissingValues)
+	public static MultiLabelInstances Create(MultiLabelInstances completeDataset, double RatioOfMissingValues) throws InvalidDataFormatException
 	{
 		int[] Labels = completeDataset.getLabelIndices();
 		int numLabels = completeDataset.getNumLabels();
@@ -36,6 +36,6 @@ public class MissingValueGenerator {
 			// TODO Auto-generated catch block
 			e.printStackTrace();
 		}
-		return null;
+		return new MultiLabelInstances(instances, completeDataset.getLabelsMetaData());
 	}
 }

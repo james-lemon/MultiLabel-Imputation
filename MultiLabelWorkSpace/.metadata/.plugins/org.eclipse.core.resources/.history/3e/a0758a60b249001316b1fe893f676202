@@ -1,0 +1,18 @@
+package Experiment;
+
+import mulan.data.MultiLabelInstances;
+import mulan.evaluation.Evaluation;
+
+public class Evaluate {
+
+	public Evaluate(MultiLabelInstances GrandTruth)
+	{
+		
+	}
+	
+	public Evaluation Evaluate(MultiLabelInstances predictions)
+	{
+		return null;
+		
+	}
+}

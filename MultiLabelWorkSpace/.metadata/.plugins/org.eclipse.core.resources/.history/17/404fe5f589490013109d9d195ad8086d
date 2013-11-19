@@ -1,0 +1,39 @@
+package predictionSets;
+
+import java.io.Reader;
+
+import weka.classifiers.Classifier;
+import weka.classifiers.trees.J48;
+import weka.core.Instance;
+import weka.core.Instances;
+import mulan.classifier.meta.RAkEL;
+import mulan.classifier.transformation.LabelPowerset;
+import mulan.data.MultiLabelInstances;
+import Experiment.IPredictValues;
+import Experiment.PredictionsWithExperiment;
+
+public class RakelPredict implements IPredictValues {
+
+	private String _name;
+	private Classifier _classifer;
+	
+	public RakelPredict(String name, Classifier classifier)
+	{
+		_name = name;
+		_classifer = classifier;
+	}
+	public PredictionsWithExperiment Run(MultiLabelInstances data) throws Exception {
+		  RAkEL model = new RAkEL(new LabelPowerset(_classifer));
+		  model.build(data);
+		  Instances predicitions = new Instances(data.getDataSet(), data.getDataSet().size());
+		  for(int i = 0 ; i < data.getDataSet().size(); i++)
+		  {
+			  Instance tmp = (Instance) data.getDataSet().get(i).copy();
+			  model.makePrediction(tmp);
+			  predicitions.add(tmp);
+		  }
+		  Instances predicitions = new MultiLabelInstances(predicitions, data.getLabelsMetaData());
+		  return data;
+	}
+
+}

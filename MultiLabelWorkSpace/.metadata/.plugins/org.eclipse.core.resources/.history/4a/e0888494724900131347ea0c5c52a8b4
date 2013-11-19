@@ -1,0 +1,51 @@
+package Experiment;
+
+import mulan.data.MultiLabelInstances;
+
+public class ImputationEvaluation {
+
+	private int truePositives;
+	private int trueNegatives;
+	private int falsePositives;
+	private int falseNegatives;
+	private MultiLabelInstances GRANDTRUTH;
+	private MultiLabelInstances _predicitions;
+	
+	public ImputationEvaluation(MultiLabelInstances GrandTruth, MultiLabelInstances predicitions)
+	{
+		GRANDTRUTH = GrandTruth;
+		_predicitions = predicitions;
+	}
+	
+	public double GetFMessure()
+	{
+		return (GetPrecision() * GetRecall()) / (GetPrecision() + GetRecall());
+	}
+	
+	public double GetAccuracy()
+	{
+		return (truePositives + trueNegatives) / (truePositives + trueNegatives + falsePositives + falseNegatives);
+	}
+	
+	public double GetPrecision()
+	{
+		return truePositives / (truePositives + falsePositives);
+	}
+	
+	public double GetRecall()
+	{
+		return truePositives / (truePositives + falseNegatives);
+	}
+	
+	private void run()
+	{
+		for(int i = 0; i < GRANDTRUTH.getNumInstances(); i++)
+		{
+			for(int j = 0; j < GRANDTRUTH.getNumLabels(); j++)
+			{
+				
+			}
+		}
+	}
+	
+}

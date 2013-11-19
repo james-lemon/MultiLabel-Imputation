@@ -1,0 +1,6 @@
+package Experiment;
+
+public interface IPredictValues {
+
+	PredictionsWithExperiment Run(MultilabelInstances data);
+}

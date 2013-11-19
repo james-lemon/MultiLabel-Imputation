@@ -1,0 +1,11 @@
+package Experiment;
+
+import mulan.data.MultiLabelInstances;
+import weka.core.Instance;
+
+public class PredictionsWithExperiment{
+	
+	MultiLabelInstances data;
+	String experiementName;
+
+}

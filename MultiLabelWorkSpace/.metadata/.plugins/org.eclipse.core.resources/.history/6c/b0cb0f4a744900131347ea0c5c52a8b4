@@ -1,0 +1,24 @@
+package Core;
+
+import java.util.ArrayList;
+
+import Experiment.EvaluationWithExperiment;
+
+public class AICore {
+
+	public void run()
+	{
+		public ArrayList<EvaluationWithExperiment> resultsList= new ArrayList<EvaluationWithExperiment>();
+		//LoadData
+		//LoadPredicitionSet
+		//LoadExperimentSet
+		//
+		//
+	}
+	
+	public static void main(String args[])
+	{
+		AICore core = new AICore();
+		core.run();
+	}
+}

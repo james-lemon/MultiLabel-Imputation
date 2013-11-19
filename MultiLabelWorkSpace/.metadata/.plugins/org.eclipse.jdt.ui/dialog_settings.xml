@@ -21,6 +21,13 @@
 		<item value="400" key="height"/>
 		<item value="600" key="width"/>
 	</section>
+	<section name="DialogBounds_SuperInterfaceSelectionDialog">
+		<item value="430" key="DIALOG_WIDTH"/>
+		<item value="41" key="DIALOG_Y_ORIGIN"/>
+		<item value="107" key="DIALOG_X_ORIGIN"/>
+		<item value="735" key="DIALOG_HEIGHT"/>
+		<item value="1|Cantarell|11.0|0|GTK|1|" key="DIALOG_FONT_NAME"/>
+	</section>
 	<section name="NewClassWizardPage">
 		<item value="false" key="create_constructor"/>
 		<item value="true" key="create_unimplemented"/>
@@ -34,7 +41,24 @@
 		<item value="false" key="updateTextualMatches"/>
 		<item value="false" key="updateSimilarElements"/>
 	</section>
+	<section name="org.eclipse.jdt.internal.ui.text.QuickOutline">
+		<item value="false" key="GoIntoTopLevelTypeAction.isChecked"/>
+		<item value="true" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_SIZE"/>
+		<item value="402" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_WIDTH"/>
+		<item value="432" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_HEIGHT"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.text.JavaOutlineInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.dialogs.OpenTypeSelectionDialog2">
+		<item value="true" key="ShowStatusLine"/>
+		<item value="&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;&#x0A;&lt;History/&gt;" key="History"/>
+	</section>
 	<section name="NewPackageWizardPage">
 		<item value="false" key="create_package_info_java"/>
+	</section>
+	<section name="org.eclipse.jdt.internal.ui.typehierarchy.QuickHierarchy">
+		<item value="402" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_WIDTH"/>
+		<item value="458" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_HEIGHT"/>
+		<item value="false" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_LOCATION"/>
+		<item value="true" key="org.eclipse.jdt.internal.ui.typehierarchy.HierarchyInformationControlDIALOG_USE_PERSISTED_SIZE"/>
 	</section>
 </section>

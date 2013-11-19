@@ -1,0 +1,95 @@
+package Core;
+
+import java.util.ArrayList;
+
+import predictionSets.RaKelPredictionSet;
+import mulan.classifier.InvalidDataException;
+import mulan.classifier.ModelInitializationException;
+import mulan.data.InvalidDataFormatException;
+import mulan.data.MultiLabelInstances;
+import Experiment.EvaluationWithExperiment;
+import Experiment.Experiment;
+import Experiment.IPredictValues;
+import Experiment.ImputationEvaluation;
+import Experiment.PredictionsWithExperiment;
+import Imputation.MissingValueGenerator;
+
+public class AICore {
+
+	private ArrayList<MultiLabelInstances> GRANDTRUTHdatasets = new ArrayList<MultiLabelInstances>();
+	private ArrayList<MultiLabelInstances> datasets = new ArrayList<MultiLabelInstances>();
+	private ArrayList<IPredictValues> predictSets = new ArrayList<IPredictValues>();
+	private ArrayList<EvaluationWithExperiment> evals = new ArrayList<EvaluationWithExperiment>();
+	
+	public void run() throws Exception
+	{
+		System.out.println("Running");
+		ArrayList<EvaluationWithExperiment> resultsList = new ArrayList<EvaluationWithExperiment>();
+		loadData();
+		System.out.println("DataLoaded");
+		createMissingValues(.9);
+		System.out.println("Missing Values Created");
+		createPredictSet();
+		System.out.println("PredictSetLoaded");
+		for(int i = 0; i < GRANDTRUTHdatasets.size(); i++)
+		{
+			System.out.println("Inside for ech GrandTurth");
+			for(IPredictValues predict : predictSets)
+			{
+				System.out.println("Inside predict");
+				Experiment experiment = new Experiment(datasets.get(i), GRANDTRUTHdatasets.get(i), predict);
+				EvaluationWithExperiment tmpeval = experiment.Run();
+				evals.add();
+			}
+		}
+		for(EvaluationWithExperiment z : evals)
+		{
+			System.out.println(z.toString());
+		}
+	}
+	
+	private EvaluationWithExperiment experiment(MultiLabelInstances dataset, MultiLabelInstances GRANDTRUTH, IPredictValues predict) throws Exception
+	{
+		return SimpleExperiment(dataset, GRANDTRUTH, predict);
+	}
+	
+	private EvaluationWithExperiment SimpleExperiment(MultiLabelInstances dataset, MultiLabelInstances GRANDTRUTH, IPredictValues predict) throws Exception
+	{
+		return new Experiment(dataset, GRANDTRUTH, predict).Run();
+	}
+	public static void main(String args[]) throws Exception
+	{
+		AICore core = new AICore();
+		try {
+			core.run();
+		} catch (InvalidDataFormatException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	private void loadData() throws InvalidDataFormatException
+	{
+		System.out.println("Loading Birds");
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/birds/birds-train.arff", "data/birds/birds.xml"));
+		System.out.println("Emotions");
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/emotions/emotions.arff", "data/emotions/emotions.xml"));
+		System.out.println("Loading Medical");
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/medical/medical.arff", "data/medical/medical.xml"));
+		System.out.println("Loading Scene");
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/scene/scene.arff", "data/scene/scene.xml"));
+		System.out.println("Loading Yeast");
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/yeast/yeast-train.arff", "data/yeast/yeast.xml"));
+	}
+	private void createMissingValues(double percentmissing)
+	{
+		for(MultiLabelInstances i : GRANDTRUTHdatasets)
+		{
+			datasets.add(MissingValueGenerator.Create(i, percentmissing));
+		}
+	}
+	private void createPredictSet() throws InvalidDataException, ModelInitializationException, Exception
+	{
+		predictSets = new RaKelPredictionSet().GetPredictValues();
+	}
+}

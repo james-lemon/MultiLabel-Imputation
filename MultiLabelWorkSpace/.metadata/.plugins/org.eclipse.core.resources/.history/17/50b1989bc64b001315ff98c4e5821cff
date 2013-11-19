@@ -1,0 +1,74 @@
+package Experiment;
+
+import mulan.data.MultiLabelInstances;
+
+public class ImputationEvaluation {
+
+	private int truePositives = 0;
+	private int trueNegatives = 0;
+	private int falsePositives = 0;
+	private int falseNegatives = 0;
+	private MultiLabelInstances GRANDTRUTH;
+	private MultiLabelInstances _predicitions;
+	
+	public ImputationEvaluation(MultiLabelInstances GrandTruth, MultiLabelInstances predicitions)
+	{
+		GRANDTRUTH = GrandTruth;
+		_predicitions = predicitions;
+		run();
+	}
+	
+	public double GetFMessure()
+	{
+		return (GetPrecision() * GetRecall()) / (GetPrecision() + GetRecall());
+	}
+	
+	public double GetAccuracy()
+	{
+		return (truePositives + trueNegatives) / (truePositives + trueNegatives + falsePositives + falseNegatives);
+	}
+	
+	public double GetPrecision()
+	{
+		return truePositives / (truePositives + falsePositives);
+	}
+	
+	public double GetRecall()
+	{
+		return truePositives / (truePositives + falseNegatives);
+	}
+	
+	private void run()
+	{
+		for(int i = 0; i < GRANDTRUTH.getNumInstances(); i++)
+		{
+			for(int j = 0; j < GRANDTRUTH.getNumLabels(); j++)
+			{
+				int labelindex = GRANDTRUTH.getLabelIndices()[j];
+				if(GRANDTRUTH.getDataSet().get(i).stringValue(labelindex).contains("alse"))
+				{
+					if(_predicitions.getDataSet().get(i).stringValue(labelindex).contains("alse"))
+					{
+						trueNegatives++;
+					}
+					else
+					{
+						falsePositives++;
+					}
+				}
+				else
+				{
+					if(_predicitions.getDataSet().get(i).stringValue(labelindex).contains("alse"))
+					{
+						falseNegatives++;
+					}
+					else
+					{
+						truePositives++;
+					}
+				}
+			}
+		}
+	}
+	
+}

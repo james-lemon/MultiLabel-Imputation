@@ -1,0 +1,26 @@
+package Experiment;
+
+import mulan.data.MultiLabelInstances;
+import mulan.evaluation.Evaluation;
+import mulan.evaluation.Evaluator;
+import Imputation.IComputeMultiLabelDatasetMetaData;
+
+public class Experiment implements IExperiment {
+	
+	private IComputeMultiLabelDatasetMetaData _metaData;
+	private MultiLabelInstances GRANDTRUTH;
+	private IPredictValues _predict;
+	private MultiLabelInstances _dataset;
+	
+	public EvaluationWithExperiment Run()
+	{
+		PredictionsWithExperiment predictions = _predict.Run(_dataset);
+		
+		Evaluator evaluator = new Evaluator();
+        Evaluation results = evaluator.evaluate(model, instances);
+		
+		return null;
+		
+	}
+
+}

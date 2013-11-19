@@ -1,0 +1,9 @@
+package Core;
+
+public class AICore {
+
+	public void run()
+	{
+		
+	}
+}

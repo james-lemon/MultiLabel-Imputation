@@ -1,0 +1,36 @@
+package Core;
+
+import java.util.ArrayList;
+
+import mulan.data.InvalidDataFormatException;
+import mulan.data.MultiLabelInstances;
+import Experiment.EvaluationWithExperiment;
+
+public class AICore {
+
+	private ArrayList<MultiLabelInstances> datasets = new ArrayList<MultiLabelInstances>();
+	public void run()
+	{
+		ArrayList<EvaluationWithExperiment> resultsList = new ArrayList<EvaluationWithExperiment>();
+		//LoadData
+		//LoadPredicitionSet
+		//LoadExperimentSet
+		//
+		//
+	}
+	
+	public static void main(String args[])
+	{
+		AICore core = new AICore();
+		core.run();
+	}
+	
+	private void loadData() throws InvalidDataFormatException
+	{
+		datasets.add(new MultiLabelInstances("data/birds/birds-train.arff", "data/birds/birds.xml"));
+		datasets.add(new MultiLabelInstances("data/emotions/emotions.arff", "data/emotions/emotions.xml"));
+		datasets.add(new MultiLabelInstances("data/medical/medical.arff", "data/ymedical/medical.xml"));
+		datasets.add(new MultiLabelInstances("data/scene/scene.arff", "data/scene/scene.xml"));
+		datasets.add(new MultiLabelInstances("data/yeast/yeast-train.arff", "data/yeast/yeast.xml"));
+	}
+}

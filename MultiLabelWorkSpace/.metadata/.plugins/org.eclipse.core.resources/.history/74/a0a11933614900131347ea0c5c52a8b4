@@ -1,0 +1,14 @@
+package Experiment;
+
+public class ImputationEvaluation {
+
+	private int truePositives;
+	private int trueNegatives;
+	private int falsePositives;
+	private int falseNegatives;
+	
+	public ImputationEvaluation(MultiLabelInstances GrandTruth, MultiLabelInstances predicitions)
+	{
+		
+	}
+}

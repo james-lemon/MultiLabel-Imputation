@@ -1,0 +1,81 @@
+package Core;
+
+import java.util.ArrayList;
+
+import predictionSets.RaKelPredictionSet;
+import mulan.classifier.InvalidDataException;
+import mulan.classifier.ModelInitializationException;
+import mulan.data.InvalidDataFormatException;
+import mulan.data.MultiLabelInstances;
+import Experiment.EvaluationWithExperiment;
+import Experiment.Experiment;
+import Experiment.IPredictValues;
+import Experiment.PredictionsWithExperiment;
+import Imputation.MissingValueGenerator;
+
+public class AICore {
+
+	private ArrayList<MultiLabelInstances> GRANDTRUTHdatasets = new ArrayList<MultiLabelInstances>();
+	private ArrayList<MultiLabelInstances> datasets = new ArrayList<MultiLabelInstances>();
+	private ArrayList<IPredictValues> predictSets = new ArrayList<IPredictValues>();
+	private ArrayList<EvaluationWithExperiment> evals = new ArrayList<EvaluationWithExperiment>();
+	
+	public void run() throws Exception
+	{
+		ArrayList<EvaluationWithExperiment> resultsList = new ArrayList<EvaluationWithExperiment>();
+		loadData();
+		createMissingValues(.9);
+		createPredictSet();
+		for(int i = 0; i < GRANDTRUTHdatasets.size(); i++)
+		{
+			for(IPredictValues predict : predictSets)
+			{
+				evals.add(experiment(datasets.get(i), GRANDTRUTHdatasets.get(i), predict));
+			}
+		}
+		for(ImputationEvaluation z : evals)
+		{
+			
+		}
+	}
+	
+	private EvaluationWithExperiment experiment(MultiLabelInstances dataset, MultiLabelInstances GRANDTRUTH, IPredictValues predict) throws Exception
+	{
+		return SimpleExperiment(dataset, GRANDTRUTH, predict);
+	}
+	
+	private EvaluationWithExperiment SimpleExperiment(MultiLabelInstances dataset, MultiLabelInstances GRANDTRUTH, IPredictValues predict) throws Exception
+	{
+		return new Experiment(dataset, GRANDTRUTH, predict).Run();
+	}
+	public static void main(String args[]) throws Exception
+	{
+		AICore core = new AICore();
+		try {
+			core.run();
+		} catch (InvalidDataFormatException e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+	}
+	
+	private void loadData() throws InvalidDataFormatException
+	{
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/birds/birds-train.arff", "data/birds/birds.xml"));
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/emotions/emotions.arff", "data/emotions/emotions.xml"));
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/medical/medical.arff", "data/ymedical/medical.xml"));
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/scene/scene.arff", "data/scene/scene.xml"));
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/yeast/yeast-train.arff", "data/yeast/yeast.xml"));
+	}
+	private void createMissingValues(double percentmissing)
+	{
+		for(MultiLabelInstances i : GRANDTRUTHdatasets)
+		{
+			datasets.add(MissingValueGenerator.Create(i, percentmissing));
+		}
+	}
+	private void createPredictSet() throws InvalidDataException, ModelInitializationException, Exception
+	{
+		predictSets = new RaKelPredictionSet().GetPredictValues();
+	}
+}
