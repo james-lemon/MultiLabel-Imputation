@@ -41,7 +41,7 @@ public class AICore {
 					System.out.println("Inside predict");
 					Experiment experiment = new Experiment(datasets.get(i), GRANDTRUTHdatasets.get(i), predict);
 					EvaluationWithExperiment tmpeval = experiment.Run();
-					tmpeval.experiment = "Dataset " + i + "\n" + tmpeval.experiment;
+					tmpeval.experiment = "Dataset " + i + "\n" + "Missing: " + rate + "\n" + tmpeval.experiment;
 					evals.add(tmpeval);
 				}
 			
