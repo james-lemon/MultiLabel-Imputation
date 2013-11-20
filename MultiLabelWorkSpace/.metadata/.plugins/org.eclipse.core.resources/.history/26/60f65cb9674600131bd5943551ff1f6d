@@ -1,0 +1,12 @@
+package Imputation;
+
+import weka.core.Instance;
+
+public class LocationOfMissingValues {
+	
+	public String labelname;
+	public Instance instance; 
+	
+	
+
+}

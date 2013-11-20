@@ -4,13 +4,12 @@ import java.util.ArrayList;
 import java.util.Dictionary;
 import java.util.Map;
 
-import weka.core.Attribute;
 import weka.core.Instance;
 import mulan.data.MultiLabelInstances;
 
 public class ComputeMultiLabelDatasetMetaData implements IComputeMultiLabelDatasetMetaData{
 
-	private MissingValueMultiLabelDatasetMetaDataset x = new MissingValueMultiLabelDatasetMetaDataset();
+	private MissingValueMultiLabelDatasetMetaDataset x;
 	private Map<String,Integer> labeladdress;
 	//Constructor
 	public ComputeMultiLabelDatasetMetaData(MultiLabelInstances Muti_Instances)
@@ -37,30 +36,40 @@ public class ComputeMultiLabelDatasetMetaData implements IComputeMultiLabelDatas
 		no_instances = x.Dataset.getNumInstances();
 		no_labels = x.Dataset.getNumLabels();
 		no_attributes = x.Dataset.getDataSet().numAttributes();
-		
 		for(i = 0; i < no_instances; i++)
 		{
-			int labelIndex = -1;
-				for(j = 0; j< x.Dataset.getDataSet().numAttributes() ;j++)
+			if(x.Dataset.hasMissingLabels(x.Dataset.getDataSet().get(i)))
+			{
+				for(j = 0; j< no_labels;j++)
 				{
-					labelIndex++;
-					Instance tmpInstance = (Instance) x.Dataset.getDataSet().get(i).copy();
-					if(tmpInstance.isMissing(j))
+					
+					if(x.Dataset.getDataSet().get(i).isMissing(x.Dataset.getLabelIndices()[j]))
 					{
 						LocationOfLabelValue locationdata = new LocationOfLabelValue();
 						locationdata.instance = x.Dataset.getDataSet().get(i); 
-						locationdata.labelname = (String)x.Dataset.getDataSet().attribute(j).name();
+						locationdata.labelname = (String)x.Dataset.getLabelsMetaData().getLabelNames().toArray()[j];
 						x.MissingLabels.add(locationdata);
 					}
 					else
 					{
 						LocationOfLabelValue locationdata = new LocationOfLabelValue();
 						locationdata.instance = x.Dataset.getDataSet().get(i); 
-						locationdata.labelname = (String)x.Dataset.getDataSet().attribute(j).name();
+						locationdata.labelname = (String)x.Dataset.getLabelsMetaData().getLabelNames().toArray()[j];
 						x.KnownLabels.add(locationdata);
 					}
 	
 				}
+			}
+			else
+			{
+				for(j = 0; j< no_labels;j++)
+				{
+					LocationOfLabelValue locationdata = new LocationOfLabelValue();
+					locationdata.instance = x.Dataset.getDataSet().get(i); 
+					locationdata.labelname = (String)x.Dataset.getLabelsMetaData().getLabelNames().toArray()[j];
+					x.KnownLabels.add(locationdata);
+				}
+			}
 		}
 		
 		//Add know values to x.Knowlabels

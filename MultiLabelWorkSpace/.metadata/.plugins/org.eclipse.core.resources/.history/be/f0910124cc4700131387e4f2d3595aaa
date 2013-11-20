@@ -1,0 +1,87 @@
+package Imputation;
+
+import java.util.ArrayList;
+
+import weka.core.Instance;
+import mulan.data.MultiLabelInstances;
+
+public class ComputeMultiLabelDatasetMetaData implements IComputeMultiLabelDatasetMetaData{
+
+	private MissingValueMultiLabelDatasetMetaDataset x;
+	public ComputeMultiLabelDatasetMetaData(MultiLabelInstances Muti_Instances)
+	{
+		x.Dataset = Muti_Instances;
+		x.NumberOfMissingLabels = 0;
+		x.MissingLabels = new ArrayList<LocationOfLabelValue>();
+		x.ImputatedLabels  = new ArrayList<LocationOfLabelValue>();
+		x.KnownLabels =  new ArrayList<LocationOfLabelValue>();
+
+	}
+	@Override
+	public MissingValueMultiLabelDatasetMetaDataset calculate() 
+	{
+		int i = 0;
+		int j = 0;
+		
+		int no_instances = 0;
+		int no_labels =0;
+		int no_attributes = 0;
+	
+		//Add Missing Values to x.MissingLabels
+		no_instances = x.Dataset.getNumInstances();
+		no_labels = x.Dataset.getNumLabels();
+		no_attributes = x.Dataset.getDataSet().numAttributes();
+		for(i = 0; i < no_instances; i++)
+		{
+			if(x.Dataset.hasMissingLabels(x.Dataset.getDataSet().get(i)))
+			{
+				for(j = 0; j< no_labels;j++)
+				{
+					
+					if(x.Dataset.getDataSet().get(i).isMissing(no_attributes - no_labels))
+					{
+						LocationOfLabelValue locationdata = new LocationOfLabelValue();
+						locationdata.instance = x.Dataset.getDataSet().get(i); 
+						locationdata.labelname = (String)x.Dataset.getLabelsMetaData().getLabelNames().toArray()[j];
+						x.MissingLabels.add(locationdata);
+					}
+					else
+					{
+						LocationOfLabelValue locationdata = new LocationOfLabelValue();
+						locationdata.instance = x.Dataset.getDataSet().get(i); 
+						locationdata.labelname = (String)x.Dataset.getLabelsMetaData().getLabelNames().toArray()[j];
+						x.KnownLabels.add(locationdata);
+					}
+	
+				}
+			}
+			else
+			{
+				for(j = 0; j< no_labels;j++)
+				{
+					LocationOfLabelValue locationdata = new LocationOfLabelValue();
+					locationdata.instance = x.Dataset.getDataSet().get(i); 
+					locationdata.labelname = (String)x.Dataset.getLabelsMetaData().getLabelNames().toArray()[j];
+					x.KnownLabels.add(locationdata);
+				}
+			}
+		}
+		
+		//Add know values to x.Knowlabels
+		//Count number of missing values, save as x.NumberOfMissingLabels
+		x.NumberOfMissingLabels = x.MissingLabels.size();
+	
+		return x;
+	}
+
+	
+	@Override
+	public MissingValueMultiLabelDatasetMetaDataset addImputatedLabels(ArrayList<LocationOfLabelValue> MissingLabels) 
+	{
+		// TODO Auto-generated method stub
+		return null;
+	}
+	
+	
+
+}
