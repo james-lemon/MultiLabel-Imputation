@@ -28,8 +28,6 @@ public class RakelPredict implements IPredictValues {
 		  RAkEL model = new RAkEL(new LabelPowerset(_classifer));
 		  model.build(data);
 		  Instances predicitions = new Instances(data.getDataSet(), data.getDataSet().size());
-		  ComputeMultiLabelDatasetMetaData ComputeMetaData = new ComputeMultiLabelDatasetMetaData(data);
-		  MissingValueMultiLabelDatasetMetaDataset MetaData = ComputeMetaData.calculate();
 		  ArrayList<MultiLabelOutput> predictions = new ArrayList<MultiLabelOutput>();
 		  for(int i = 0 ; i < data.getDataSet().size(); i++)
 		  {

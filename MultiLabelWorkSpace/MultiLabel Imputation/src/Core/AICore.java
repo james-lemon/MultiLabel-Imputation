@@ -26,26 +26,27 @@ public class AICore {
 	public void run() throws Exception
 	{
 		ArrayList<EvaluationWithExperiment> resultsList = new ArrayList<EvaluationWithExperiment>();
-		loadData();
-		System.out.println("DataLoaded");
-		createMissingValues(.1);
-		System.out.println("Missing Values Created");
-		createPredictSet();
-		System.out.println("PredictSetLoaded");
-		for(int i = 0; i < GRANDTRUTHdatasets.size(); i++)
+		for(double rate = 0.1; rate < 1; rate += 0.1)
 		{
-			for(IPredictValues predict : predictSets)
+			loadData();
+			System.out.println("DataLoaded");
+			createMissingValues(rate);
+			System.out.println("Missing Values Created");
+			createPredictSet();
+			System.out.println("PredictSetLoaded");
+			for(int i = 0; i < GRANDTRUTHdatasets.size(); i++)
 			{
-				System.out.println("Inside predict");
-				Experiment experiment = new Experiment(datasets.get(i), GRANDTRUTHdatasets.get(i), predict);
-				EvaluationWithExperiment tmpeval = experiment.Run();
-				tmpeval.evaluation.run2();
-				tmpeval.experiment = "Dataset " + i + "\n" + tmpeval.experiment;
-				evals.add(tmpeval);
-			}
+				for(IPredictValues predict : predictSets)
+				{
+					System.out.println("Inside predict");
+					Experiment experiment = new Experiment(datasets.get(i), GRANDTRUTHdatasets.get(i), predict);
+					EvaluationWithExperiment tmpeval = experiment.Run();
+					tmpeval.experiment = "Dataset " + i + "\n" + tmpeval.experiment;
+					evals.add(tmpeval);
+				}
 			
+			}
 		}
-		
 		for(EvaluationWithExperiment z : evals)
 		{
 			System.out.println(z.toString());
