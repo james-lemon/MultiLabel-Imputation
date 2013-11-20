@@ -76,19 +76,16 @@ public class AICore {
 	
 	private void loadData() throws InvalidDataFormatException
 	{
-		System.out.println("Loading Birds");
-	//	GRANDTRUTHdatasets.add(new MultiLabelInstances("data/birds/birds-train.arff", "data/birds/birds.xml"));
-	////	System.out.println("Emotions");
-	//	GRANDTRUTHdatasets.add(new MultiLabelInstances("data/emotions/emotions.arff", "data/emotions/emotions.xml"));
-	//	System.out.println("Loading Medical");
-	//	GRANDTRUTHdatasets.add(new MultiLabelInstances("data/medical/medical.arff", "data/medical/medical.xml"));
-	//	System.out.println("Loading Scene");
-	//	GRANDTRUTHdatasets.add(new MultiLabelInstances("data/scene/scene.arff", "data/scene/scene.xml"));
-		System.out.println("Loading Yeast");
+		GRANDTRUTHdatasets = new ArrayList<MultiLabelInstances>();
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/birds/birds-train.arff", "data/birds/birds.xml"));
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/emotions/emotions.arff", "data/emotions/emotions.xml"));
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/medical/medical.arff", "data/medical/medical.xml"));
+		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/scene/scene.arff", "data/scene/scene.xml"));
 		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/yeast/yeast-train.arff", "data/yeast/yeast.xml"));
 	}
 	private void createMissingValues(double percentmissing) throws InvalidDataFormatException
 	{
+		datasets = new ArrayList<MultiLabelInstances>();
 		for(MultiLabelInstances i : GRANDTRUTHdatasets)
 		{
 			MultiLabelInstances missing = MissingValueGenerator.Create(i, percentmissing);
