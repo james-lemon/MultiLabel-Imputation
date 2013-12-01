@@ -15,6 +15,7 @@ public class EvaluationWithExperiment {
 		output.append("Recall: " + evaluation.GetRecall() + "\n");
 		output.append("Precision: " + evaluation.GetPrecision() + "\n");
 		output.append("F-Messure: " + evaluation.GetFMessure() + "\n");
+		output.append("HammingLoss: " + evaluation.GetHammingLoss());
 		output.append("\n \n");
 		return output.toString();
 	}

@@ -1,5 +1,6 @@
 package Core;
 
+import java.io.PrintWriter;
 import java.util.ArrayList;
 
 import predictionSets.RaKelPredictionSet;
@@ -36,22 +37,27 @@ public class AICore {
 			System.out.println("PredictSetLoaded");
 			for(int i = 0; i < GRANDTRUTHdatasets.size(); i++)
 			{
+				System.out.println("Dataset " + i);
 				for(IPredictValues predict : predictSets)
 				{
 					System.out.println("Inside predict");
 					Experiment experiment = new Experiment(datasets.get(i), GRANDTRUTHdatasets.get(i), predict);
 					EvaluationWithExperiment tmpeval = experiment.Run();
+					System.out.println(tmpeval);
 					tmpeval.experiment = "Dataset " + i + "\n" + "Missing: " + rate + "\n" + tmpeval.experiment;
 					evals.add(tmpeval);
 				}
 			
 			}
 		}
+		PrintWriter writer = new PrintWriter("evals.txt", "UTF-8");
+
 		for(EvaluationWithExperiment z : evals)
 		{
-			System.out.println(z.toString());
+			writer.println(z.toString());
 
 		}
+		writer.close();
 	}
 	
 	private EvaluationWithExperiment experiment(MultiLabelInstances dataset, MultiLabelInstances GRANDTRUTH, IPredictValues predict) throws Exception

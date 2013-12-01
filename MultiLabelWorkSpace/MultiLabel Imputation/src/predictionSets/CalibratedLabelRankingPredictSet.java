@@ -2,52 +2,49 @@ package predictionSets;
 
 import java.util.ArrayList;
 
-import weka.classifiers.*;
-import weka.classifiers.bayes.*;
-import weka.classifiers.bayes.net.*;
-import weka.classifiers.functions.GaussianProcesses;
-import weka.classifiers.functions.LinearRegression;
+import mulan.classifier.InvalidDataException;
+import mulan.classifier.ModelInitializationException;
+import mulan.classifier.transformation.CalibratedLabelRanking;
+import weka.classifiers.Classifier;
+import weka.classifiers.bayes.NaiveBayes;
+import weka.classifiers.bayes.NaiveBayesMultinomialText;
+import weka.classifiers.bayes.NaiveBayesUpdateable;
 import weka.classifiers.functions.Logistic;
 import weka.classifiers.functions.MultilayerPerceptron;
-import weka.classifiers.functions.SGD;
-import weka.classifiers.functions.SGDText;
 import weka.classifiers.functions.SMO;
-import weka.classifiers.functions.SMOreg;
-import weka.classifiers.functions.SimpleLinearRegression;
 import weka.classifiers.functions.SimpleLogistic;
-import weka.classifiers.functions.VotedPerceptron;
-import weka.classifiers.lazy.*;
-import weka.classifiers.meta.*;
+import weka.classifiers.lazy.IBk;
+import weka.classifiers.lazy.KStar;
+import weka.classifiers.lazy.LWL;
+import weka.classifiers.meta.AdaBoostM1;
+import weka.classifiers.meta.AttributeSelectedClassifier;
+import weka.classifiers.meta.Bagging;
+import weka.classifiers.meta.CVParameterSelection;
+import weka.classifiers.meta.ClassificationViaRegression;
+import weka.classifiers.meta.FilteredClassifier;
+import weka.classifiers.meta.LogitBoost;
+import weka.classifiers.meta.MultiClassClassifier;
+import weka.classifiers.meta.MultiScheme;
+import weka.classifiers.meta.RandomCommittee;
+import weka.classifiers.meta.RandomSubSpace;
+import weka.classifiers.meta.Stacking;
+import weka.classifiers.meta.Vote;
 import weka.classifiers.misc.InputMappedClassifier;
-import weka.classifiers.misc.SerializedClassifier;
-import weka.classifiers.pmml.consumer.GeneralRegression;
-import weka.classifiers.pmml.consumer.NeuralNetwork;
-import weka.classifiers.pmml.consumer.PMMLClassifier;
-import weka.classifiers.pmml.consumer.Regression;
-import weka.classifiers.pmml.consumer.RuleSetModel;
-import weka.classifiers.pmml.consumer.SupportVectorMachineModel;
-import weka.classifiers.pmml.consumer.TreeModel;
-import weka.classifiers.pmml.consumer.GeneralRegression.*;
 import weka.classifiers.rules.DecisionTable;
 import weka.classifiers.rules.JRip;
-import weka.classifiers.rules.M5Rules;
 import weka.classifiers.rules.OneR;
 import weka.classifiers.rules.PART;
 import weka.classifiers.rules.ZeroR;
-import weka.classifiers.trees.*;
-import weka.classifiers.trees.lmt.LMTNode;
-import weka.classifiers.trees.lmt.LogisticBase;
-import weka.classifiers.trees.m5.M5Base;
-import weka.classifiers.trees.m5.PreConstructedLinearModel;
-import weka.classifiers.trees.m5.RuleNode;
-import mulan.classifier.InvalidDataException;
-import mulan.classifier.ModelInitializationException;
-import mulan.data.MultiLabelInstances;
+import weka.classifiers.trees.DecisionStump;
+import weka.classifiers.trees.J48;
+import weka.classifiers.trees.LMT;
+import weka.classifiers.trees.REPTree;
+import weka.classifiers.trees.RandomForest;
+import weka.classifiers.trees.RandomTree;
 import Experiment.IPredictValueSet;
 import Experiment.IPredictValues;
-import Experiment.PredictionsWithExperiment;
 
-public class RaKelPredictionSet implements IPredictValueSet {
+public class CalibratedLabelRankingPredictSet implements IPredictValueSet {
 
 	private ArrayList<Classifier> classifiers = new ArrayList<Classifier>();
 	
@@ -56,7 +53,7 @@ public class RaKelPredictionSet implements IPredictValueSet {
 			loadClassifiers();
 			for(Classifier classifier : classifiers)
 			{
-				output.add(new RakelPredict("Rakel with " +classifier.getClass().toString(), classifier));
+				output.add(new CalibratedLabelRankingPredict("CalibratedLabelRanking with " +classifier.getClass().toString(), classifier));
 			}
 			return output;
 			}

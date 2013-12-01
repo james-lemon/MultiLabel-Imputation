@@ -10,22 +10,35 @@ public class ImputationEvaluation {
 	public int trueNegatives = 0;
 	public int falsePositives = 0;
 	public int falseNegatives = 0;
+	public int numOfKnown = 0;
 	public MultiLabelInstances GRANDTRUTH;
 	public MultiLabelInstances _predicitions;
 	public ArrayList<MultiLabelOutput> _prediction;
 	
-	public ImputationEvaluation(MultiLabelInstances GrandTruth, MultiLabelInstances predicitions)
+	public ImputationEvaluation(MultiLabelInstances GrandTruth, MultiLabelInstances predicitions, int known)
 	{
 		GRANDTRUTH = GrandTruth;
 		_predicitions = predicitions;
+		numOfKnown = known;
 		run();
 	}
 	
-	public ImputationEvaluation(MultiLabelInstances GrandTruth, ArrayList<MultiLabelOutput> prediction)
+	public ImputationEvaluation(MultiLabelInstances GrandTruth, ArrayList<MultiLabelOutput> prediction, int known)
 	{
 		_prediction = prediction;
 		GRANDTRUTH = GrandTruth;
+		numOfKnown = known;
 		run2();
+	}
+	
+	public double GetHammingLoss()
+	{
+		double sum = 0;
+		for(int i = 0 ; i < falseNegatives + falsePositives; i++)
+		{
+			sum += (1.0 / GRANDTRUTH.getDataSet().numInstances());
+		}
+		return (1.0 / GRANDTRUTH.getDataSet().numInstances()) * sum;
 	}
 	
 	public double GetFMessure()
@@ -35,22 +48,22 @@ public class ImputationEvaluation {
 	
 	public double GetAccuracy()
 	{
-		double top = truePositives + trueNegatives;
-		double bottom = top + falsePositives + falseNegatives;
+		double top = (truePositives + trueNegatives) - numOfKnown;
+		double bottom = (truePositives + trueNegatives + falsePositives + falseNegatives) - numOfKnown;
 		return top / bottom;
 	}
 	
 	public double GetPrecision()
 	{
-		double top = truePositives;
-		double bottom = truePositives + falsePositives;
+		double top = truePositives - numOfKnown;
+		double bottom = (truePositives + falsePositives) - numOfKnown;
 		return top / bottom;
 	}
 	
 	public double GetRecall()
 	{
-		double top = truePositives;
-		double bottom = truePositives + falseNegatives;
+		double top = truePositives - numOfKnown;
+		double bottom = (truePositives + falseNegatives) - numOfKnown;
 		return top / bottom;
 	}
 	

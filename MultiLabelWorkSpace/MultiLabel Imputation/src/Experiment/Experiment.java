@@ -23,10 +23,12 @@ public class Experiment implements IExperiment {
 	
 	public EvaluationWithExperiment Run() throws Exception
 	{
-		PredictionsWithExperiment predictions = _predict.Run(_dataset);
+		_metaData = new ComputeMultiLabelDatasetMetaData(_dataset);
+		MissingValueMultiLabelDatasetMetaDataset info = _metaData.calculate();
 		
+		PredictionsWithExperiment predictions = _predict.Run(_dataset);
 		EvaluationWithExperiment output = new EvaluationWithExperiment();
-		output.evaluation = new ImputationEvaluation(GRANDTRUTH, predictions.data);
+		output.evaluation = new ImputationEvaluation(GRANDTRUTH, predictions.data, info.NumberOfMissingLabels);
 		output.experiment = predictions.experiementName;
 		
 		

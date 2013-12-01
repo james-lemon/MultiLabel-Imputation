@@ -14,6 +14,7 @@ public class ComputeMultiLabelDatasetMetaData implements IComputeMultiLabelDatas
 	//Constructor
 	public ComputeMultiLabelDatasetMetaData(MultiLabelInstances Muti_Instances)
 	{
+		x = new MissingValueMultiLabelDatasetMetaDataset();
 		x.Dataset = Muti_Instances;
 		x.NumberOfMissingLabels = 0;
 		x.MissingLabels = new ArrayList<LocationOfLabelValue>();
