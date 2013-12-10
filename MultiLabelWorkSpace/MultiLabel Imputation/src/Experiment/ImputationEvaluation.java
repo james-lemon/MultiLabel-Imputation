@@ -71,6 +71,7 @@ public class ImputationEvaluation {
 	
 	public double GetPrecision()
 	{
+		System.out.println("Zi: " + Zi());
 		double top = YiMinusYiIntersectMiIntersectZi();
 		double bottom = Zi();
 		return top / bottom;
@@ -78,7 +79,7 @@ public class ImputationEvaluation {
 	
 	public double GetRecall()
 	{
-
+		System.out.println("Yi: " + Yi());
 		double top = YiMinusYiIntersectMiIntersectZi();
 		double bottom = Yi();
 		return top / bottom;
@@ -132,10 +133,12 @@ public class ImputationEvaluation {
 			tmp2 = -1;
 			if(Yi.get(i) == 1)
 			{
+				tmp = Yi.get(i);
 				output++;
 			}
 			if(Zi.get(i) == 1)
 			{
+				tmp2 = Yi.get(i);
 				output++;
 			}
 			if(tmp == 1 && tmp2 == 1)
@@ -182,10 +185,12 @@ public class ImputationEvaluation {
 						Yi.add(count, 0);
 						if(!_prediction.get(i).getBipartition()[j])
 						{
+							trueNegatives++;
 							Zi.add(count, 0);
 						}
 						else
 						{
+							falsePositives++;
 							Zi.add(count, 1);
 						}
 					}
@@ -198,10 +203,12 @@ public class ImputationEvaluation {
 							Yi.add(count, 1);
 							if(_prediction.get(i).getBipartition()[j])
 							{
+								falseNegatives++;
 								Zi.add(count, 0);
 							}
 							else
 							{
+								truePositives++;
 								Zi.add(count, 1);
 							}
 						}

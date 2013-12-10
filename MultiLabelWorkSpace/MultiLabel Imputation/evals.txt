@@ -1,120 +1,30 @@
 Experiment title: Dataset 0
 Missing: 0.2
 BinaryRelevance with class weka.classifiers.bayes.NaiveBayes
-Accuracy: 0.10551558752997602
-Recall: 0.5945945945945946
-Precision: 0.1282798833819242
-F-Messure: 0.10551558752997603
-HammingLoss: 0.0
+Accuracy: 0.07769423558897243
+Recall: 0.49206349206349204
+Precision: 0.08446866485013624
+F-Messure: 0.07209302325581396
+HammingLoss: 0.0035492457852706006
  
 
 Experiment title: Dataset 0
 Missing: 0.2
 BinaryRelevance with class weka.classifiers.trees.RandomForest
-Accuracy: 0.425531914893617
-Recall: 0.8108108108108109
-Precision: 0.8955223880597015
-F-Messure: 0.425531914893617
-HammingLoss: 0.0
+Accuracy: 0.726027397260274
+Recall: 0.8412698412698413
+Precision: 0.8412698412698413
+F-Messure: 0.42063492063492064
+HammingLoss: 1.9289379267775156E-4
  
 
 Experiment title: Dataset 0
 Missing: 0.2
 BRkNN
-Accuracy: 0.4965986394557823
-Recall: 0.9864864864864865
-Precision: 1.0
-F-Messure: 0.49659863945578236
-HammingLoss: 0.0
- 
-
-Experiment title: Dataset 0
-Missing: 0.4
-BinaryRelevance with class weka.classifiers.bayes.NaiveBayes
-Accuracy: 0.08962868117797695
-Recall: 0.49295774647887325
-Precision: 0.10954616588419405
-F-Messure: 0.08962868117797694
-HammingLoss: 0.0
- 
-
-Experiment title: Dataset 0
-Missing: 0.4
-BinaryRelevance with class weka.classifiers.trees.RandomForest
-Accuracy: 0.3759124087591241
-Recall: 0.7253521126760564
-Precision: 0.7803030303030303
-F-Messure: 0.375912408759124
-HammingLoss: 0.0
- 
-
-Experiment title: Dataset 0
-Missing: 0.4
-BRkNN
-Accuracy: 0.5
+Accuracy: 0.984375
 Recall: 1.0
-Precision: 1.0
-F-Messure: 0.5
-HammingLoss: 0.0
- 
-
-Experiment title: Dataset 0
-Missing: 0.6000000000000001
-BinaryRelevance with class weka.classifiers.bayes.NaiveBayes
-Accuracy: 0.11698880976602238
-Recall: 0.6216216216216216
-Precision: 0.14411027568922305
-F-Messure: 0.11698880976602237
-HammingLoss: 0.0
- 
-
-Experiment title: Dataset 0
-Missing: 0.6000000000000001
-BinaryRelevance with class weka.classifiers.trees.RandomForest
-Accuracy: 0.3858695652173913
-Recall: 0.7675675675675676
-Precision: 0.7759562841530054
-F-Messure: 0.38586956521739124
-HammingLoss: 0.0
- 
-
-Experiment title: Dataset 0
-Missing: 0.6000000000000001
-BRkNN
-Accuracy: 0.4986449864498645
-Recall: 0.9945945945945946
-Precision: 1.0
-F-Messure: 0.4986449864498645
-HammingLoss: 0.0
- 
-
-Experiment title: Dataset 0
-Missing: 0.8
-BinaryRelevance with class weka.classifiers.bayes.NaiveBayes
-Accuracy: 0.23448275862068965
-Recall: 0.7338129496402878
-Precision: 0.34459459459459457
-F-Messure: 0.23448275862068965
-HammingLoss: 0.0
- 
-
-Experiment title: Dataset 0
-Missing: 0.8
-BinaryRelevance with class weka.classifiers.trees.RandomForest
-Accuracy: 0.42517006802721086
-Recall: 0.8992805755395683
-Precision: 0.8064516129032258
-F-Messure: 0.42517006802721086
-HammingLoss: 0.0
- 
-
-Experiment title: Dataset 0
-Missing: 0.8
-BRkNN
-Accuracy: 0.5
-Recall: 1.0
-Precision: 1.0
-F-Messure: 0.5
-HammingLoss: 0.0
+Precision: 0.984375
+F-Messure: 0.49606299212598426
+HammingLoss: 9.64468963388758E-6
  
 

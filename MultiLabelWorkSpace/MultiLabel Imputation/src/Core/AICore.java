@@ -37,7 +37,7 @@ public class AICore {
 	public void run() throws Exception
 	{
 		ArrayList<EvaluationWithExperiment> resultsList = new ArrayList<EvaluationWithExperiment>();
-		for(double rate = 0.2; rate < .9; rate += 0.2)
+		for(double rate = 0.2; rate < .3; rate += 0.2)
 		{
 			loadData();
 			System.out.println(rate);
