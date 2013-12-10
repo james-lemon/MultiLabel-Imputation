@@ -60,40 +60,12 @@ public class LabelPowerSetPredictSet implements IPredictValueSet {
 	private void loadClassifiers()
 	{
 		// Run well
-		classifiers.add(new AdaBoostM1());
-		classifiers.add(new AttributeSelectedClassifier());
-		classifiers.add(new Bagging());
-		classifiers.add(new ClassificationViaRegression());
-		classifiers.add(new CVParameterSelection());
-		classifiers.add(new J48());
-		classifiers.add(new DecisionStump());
-		classifiers.add(new DecisionTable());
-		classifiers.add(new FilteredClassifier());	
-		classifiers.add(new IBk());
-		classifiers.add(new InputMappedClassifier());
-		classifiers.add(new JRip());
-		classifiers.add(new LMT());
-		classifiers.add(new Logistic());
-		classifiers.add(new LogitBoost());
-		classifiers.add(new LWL());
-		classifiers.add(new MultiClassClassifier());
-		classifiers.add(new MultilayerPerceptron());
-		classifiers.add(new MultiScheme());
+		//classifiers.add(new ClassificationViaRegression());
+		//classifiers.add(new J48());
+		//classifiers.add(new MultilayerPerceptron());
 		classifiers.add(new NaiveBayes());
-		classifiers.add(new NaiveBayesMultinomialText());
-		classifiers.add(new NaiveBayesUpdateable());
-		classifiers.add(new OneR());
-		classifiers.add(new PART());
-		classifiers.add(new RandomCommittee());
-		classifiers.add(new RandomForest());
-		classifiers.add(new RandomSubSpace());
-		classifiers.add(new RandomTree());
-		classifiers.add(new SimpleLogistic());
-		classifiers.add(new SMO());
-		classifiers.add(new REPTree());
-		classifiers.add(new Stacking());
-		classifiers.add(new Vote());
-		classifiers.add(new ZeroR());
+		//classifiers.add(new SimpleLogistic());
+
 		
 		//Errors Below
 		//IOFileNotFoundclassifiers.add(new SerializedClassifier());

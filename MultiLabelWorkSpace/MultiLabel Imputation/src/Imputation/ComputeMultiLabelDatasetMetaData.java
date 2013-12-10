@@ -20,6 +20,7 @@ public class ComputeMultiLabelDatasetMetaData implements IComputeMultiLabelDatas
 		x.MissingLabels = new ArrayList<LocationOfLabelValue>();
 		x.ImputatedLabels  = new ArrayList<LocationOfLabelValue>();
 		x.KnownLabels =  new ArrayList<LocationOfLabelValue>();
+		
 
 	}
 	//Method Will Generate MissingValueMultiLabelDatasetMetaDataset based on MultiLabelInstances
@@ -32,6 +33,8 @@ public class ComputeMultiLabelDatasetMetaData implements IComputeMultiLabelDatas
 		int no_instances = 0;
 		int no_labels =0;
 		int no_attributes = 0;
+		x.knownNegatives = 0;
+		x.knownPostives = 0;
 	
 		//Add Missing Values to x.MissingLabels
 		no_instances = x.Dataset.getNumInstances();
@@ -49,6 +52,7 @@ public class ComputeMultiLabelDatasetMetaData implements IComputeMultiLabelDatas
 						LocationOfLabelValue locationdata = new LocationOfLabelValue();
 						locationdata.instance = x.Dataset.getDataSet().get(i); 
 						locationdata.labelname = (String)x.Dataset.getLabelsMetaData().getLabelNames().toArray()[j];
+						locationdata.instanceLocation=i;
 						x.MissingLabels.add(locationdata);
 					}
 					else
@@ -56,7 +60,16 @@ public class ComputeMultiLabelDatasetMetaData implements IComputeMultiLabelDatas
 						LocationOfLabelValue locationdata = new LocationOfLabelValue();
 						locationdata.instance = x.Dataset.getDataSet().get(i); 
 						locationdata.labelname = (String)x.Dataset.getLabelsMetaData().getLabelNames().toArray()[j];
+						locationdata.instanceLocation=i;
 						x.KnownLabels.add(locationdata);
+						if(x.Dataset.getDataSet().get(i).stringValue(x.Dataset.getLabelIndices()[j]).contains("0"))
+						{
+							x.knownNegatives++;
+						}
+						else
+						{
+							x.knownPostives++;
+						}
 					}
 	
 				}
@@ -68,6 +81,7 @@ public class ComputeMultiLabelDatasetMetaData implements IComputeMultiLabelDatas
 					LocationOfLabelValue locationdata = new LocationOfLabelValue();
 					locationdata.instance = x.Dataset.getDataSet().get(i); 
 					locationdata.labelname = (String)x.Dataset.getLabelsMetaData().getLabelNames().toArray()[j];
+					locationdata.instanceLocation=i;
 					x.KnownLabels.add(locationdata);
 				}
 			}

@@ -3,6 +3,16 @@ package Core;
 import java.io.PrintWriter;
 import java.util.ArrayList;
 
+import predictionSets.AdaBoostMHPredictSet;
+import predictionSets.BPMLLPredictSet;
+import predictionSets.BRkNNPredictSet;
+import predictionSets.BinaryRelevancePredictionSet;
+import predictionSets.CalibratedLabelRankingPredictSet;
+import predictionSets.IBLR_MLPredictSet;
+import predictionSets.IncludeLabelsClassifierPredictSet;
+import predictionSets.LabelPowerSetPredictSet;
+import predictionSets.MLkNNPredictSet;
+import predictionSets.MMPLearnerPredictSet;
 import predictionSets.RaKelPredictionSet;
 import mulan.classifier.InvalidDataException;
 import mulan.classifier.ModelInitializationException;
@@ -27,27 +37,32 @@ public class AICore {
 	public void run() throws Exception
 	{
 		ArrayList<EvaluationWithExperiment> resultsList = new ArrayList<EvaluationWithExperiment>();
-		for(double rate = 0.1; rate < 1; rate += 0.1)
+		for(double rate = 0.2; rate < .9; rate += 0.2)
 		{
 			loadData();
-			System.out.println("DataLoaded");
+			System.out.println(rate);
 			createMissingValues(rate);
 			System.out.println("Missing Values Created");
 			createPredictSet();
 			System.out.println("PredictSetLoaded");
+			int a = 0;
 			for(int i = 0; i < GRANDTRUTHdatasets.size(); i++)
 			{
+				ComputeMultiLabelDatasetMetaData cm = new ComputeMultiLabelDatasetMetaData(datasets.get(i));
+				System.out.println(cm.calculate().NumberOfMissingLabels);
+				
 				System.out.println("Dataset " + i);
 				for(IPredictValues predict : predictSets)
 				{
-					System.out.println("Inside predict");
-					Experiment experiment = new Experiment(datasets.get(i), GRANDTRUTHdatasets.get(i), predict);
+					a++;
+					System.out.println(a);
+					Experiment experiment = new Experiment(datasets.get(i).clone(), GRANDTRUTHdatasets.get(i), predict);
 					EvaluationWithExperiment tmpeval = experiment.Run();
 					System.out.println(tmpeval);
 					tmpeval.experiment = "Dataset " + i + "\n" + "Missing: " + rate + "\n" + tmpeval.experiment;
 					evals.add(tmpeval);
 				}
-			
+				
 			}
 		}
 		PrintWriter writer = new PrintWriter("evals.txt", "UTF-8");
@@ -84,10 +99,18 @@ public class AICore {
 	{
 		GRANDTRUTHdatasets = new ArrayList<MultiLabelInstances>();
 		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/birds/birds-train.arff", "data/birds/birds.xml"));
-		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/emotions/emotions.arff", "data/emotions/emotions.xml"));
-		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/medical/medical.arff", "data/medical/medical.xml"));
-		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/scene/scene.arff", "data/scene/scene.xml"));
-		GRANDTRUTHdatasets.add(new MultiLabelInstances("data/yeast/yeast-train.arff", "data/yeast/yeast.xml"));
+		//GRANDTRUTHdatasets.add(new MultiLabelInstances("data/bibtex/bibtex.arff", "data/bibtex/bibtex.xml"));
+		//GRANDTRUTHdatasets.add(new MultiLabelInstances("data/bookmarks/bookmarks.arff", "data/bookmarks/bookmarks.xml"));
+		//GRANDTRUTHdatasets.add(new MultiLabelInstances("data/CAL500/CAL500.arff", "data/CAL500/CAL500.xml"));
+		//GRANDTRUTHdatasets.add(new MultiLabelInstances("data/corel5k/Corel5k.arff", "data/corel5k/Corel5k.xml"));
+		//GRANDTRUTHdatasets.add(new MultiLabelInstances("data/enron/enron.arff", "data/enron/enron.xml"));
+		//GRANDTRUTHdatasets.add(new MultiLabelInstances("data/genbase/genbase.arff", "data/genbase/genbase.xml"));
+		//GRANDTRUTHdatasets.add(new MultiLabelInstances("data/mediamill/mediamill.arff", "data/mediamill/mediamill.xml"));
+		//GRANDTRUTHdatasets.add(new MultiLabelInstances("data/tmc2007/tmc2007.arff", "data/tmc2007/tmc2007.xml"));
+		//GRANDTRUTHdatasets.add(new MultiLabelInstances("data/emotions/emotions.arff", "data/emotions/emotions.xml"));
+		//GRANDTRUTHdatasets.add(new MultiLabelInstances("data/medical/medical.arff", "data/medical/medical.xml"));
+		//GRANDTRUTHdatasets.add(new MultiLabelInstances("data/scene/scene.arff", "data/scene/scene.xml"));
+		//GRANDTRUTHdatasets.add(new MultiLabelInstances("data/yeast/yeast-train.arff", "data/yeast/yeast.xml"));
 	}
 	private void createMissingValues(double percentmissing) throws InvalidDataFormatException
 	{
@@ -100,6 +123,17 @@ public class AICore {
 	}
 	private void createPredictSet() throws InvalidDataException, ModelInitializationException, Exception
 	{
-		predictSets = new RaKelPredictionSet().GetPredictValues();
+		//predictSets = new RaKelPredictionSet().GetPredictValues();
+		predictSets = new BinaryRelevancePredictionSet().GetPredictValues();
+
+		ArrayList<IPredictValues> add = new BRkNNPredictSet().GetPredictValues();
+		for(IPredictValues i : add)
+		{
+			predictSets.add(i);
+		}
+
+
+
+
 	}
 }

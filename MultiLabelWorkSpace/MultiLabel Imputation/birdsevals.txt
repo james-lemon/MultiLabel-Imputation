@@ -1,0 +1,3400 @@
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.meta.AdaBoostM1
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.meta.AttributeSelectedClassifier
+Accuracy: 0.9686171951618175
+Recall: 0.4604105571847507
+Precision: 0.9515151515151515
+F-Messure: 0.3102766798418973
+HammingLoss: 0.0018517804097064132
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.meta.Bagging
+Accuracy: 0.9633867276887872
+Recall: 0.3519061583577713
+Precision: 0.975609756097561
+F-Messure: 0.2586206896551724
+HammingLoss: 0.0021604104779908108
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.meta.ClassificationViaRegression
+Accuracy: 0.9730304020921869
+Recall: 0.530791788856305
+Precision: 0.9731182795698925
+F-Messure: 0.34345351043643263
+HammingLoss: 0.0015913737895914526
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.meta.CVParameterSelection
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.trees.J48
+Accuracy: 0.98365478914678
+Recall: 0.718475073313783
+Precision: 0.9839357429718876
+F-Messure: 0.4152542372881356
+HammingLoss: 9.644689633887594E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.trees.DecisionStump
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.rules.DecisionTable
+Accuracy: 0.961588754494933
+Recall: 0.3343108504398827
+Precision: 0.9344262295081968
+F-Messure: 0.2462203023758099
+HammingLoss: 0.0022665020639635724
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.meta.FilteredClassifier
+Accuracy: 0.9684537430532854
+Recall: 0.46920821114369504
+Precision: 0.9302325581395349
+F-Messure: 0.3118908382066277
+HammingLoss: 0.0018614250993403006
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.lazy.IBk
+Accuracy: 0.9952598888525662
+Recall: 0.9501466275659824
+Precision: 0.9642857142857143
+F-Messure: 0.47858197932053176
+HammingLoss: 2.796959993827399E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.misc.InputMappedClassifier
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.rules.JRip
+Accuracy: 0.9741745668519124
+Recall: 0.5835777126099707
+Precision: 0.9255813953488372
+F-Messure: 0.3579136690647482
+HammingLoss: 0.00152386096215424
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.trees.LMT
+Accuracy: 0.9735207584177836
+Recall: 0.5366568914956011
+Precision: 0.9786096256684492
+F-Messure: 0.34659090909090906
+HammingLoss: 0.0015624397206897903
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.functions.Logistic
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.meta.LogitBoost
+Accuracy: 0.9978751225890814
+Recall: 0.9648093841642229
+Precision: 0.996969696969697
+F-Messure: 0.49031296572280175
+HammingLoss: 1.2538096524053853E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.lazy.LWL
+Accuracy: 0.946060804184374
+Recall: 0.16129032258064516
+Precision: 0.5555555555555556
+F-Messure: 0.125
+HammingLoss: 0.0031827475791828784
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.meta.MultiClassClassifier
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.functions.MultilayerPerceptron
+Accuracy: 0.993461915658712
+Recall: 0.8826979472140762
+Precision: 1.0
+F-Messure: 0.4688473520249221
+HammingLoss: 3.8578758535550355E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.meta.MultiScheme
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.bayes.NaiveBayes
+Accuracy: 0.9135338345864662
+Recall: 0.9501466275659824
+Precision: 0.3875598086124402
+F-Messure: 0.27527612574341553
+HammingLoss: 0.005102040816326476
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.bayes.NaiveBayesMultinomialText
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.bayes.NaiveBayesUpdateable
+Accuracy: 0.9135338345864662
+Recall: 0.9501466275659824
+Precision: 0.3875598086124402
+F-Messure: 0.27527612574341553
+HammingLoss: 0.005102040816326476
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.rules.OneR
+Accuracy: 0.9512912716574043
+Recall: 0.16129032258064516
+Precision: 0.8208955223880597
+F-Messure: 0.13480392156862747
+HammingLoss: 0.0028741175108984805
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.rules.PART
+Accuracy: 0.9952598888525662
+Recall: 0.9178885630498533
+Precision: 0.9968152866242038
+F-Messure: 0.4778625954198473
+HammingLoss: 2.796959993827399E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.meta.RandomCommittee
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.trees.RandomForest
+Accuracy: 0.9995096436744034
+Recall: 0.9912023460410557
+Precision: 1.0
+F-Messure: 0.49779086892488955
+HammingLoss: 2.8934068901662744E-5
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.meta.RandomSubSpace
+Accuracy: 0.9584831644328212
+Recall: 0.26099706744868034
+Precision: 0.978021978021978
+F-Messure: 0.20601851851851852
+HammingLoss: 0.0024497511670074335
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.trees.RandomTree
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.functions.SimpleLogistic
+Accuracy: 0.968944099378882
+Recall: 0.4604105571847507
+Precision: 0.9631901840490797
+F-Messure: 0.3115079365079365
+HammingLoss: 0.0018324910304386383
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.functions.SMO
+Accuracy: 0.9880679960771493
+Recall: 0.7888563049853372
+Precision: 0.9962962962962963
+F-Messure: 0.4402618657937807
+HammingLoss: 7.040623432737942E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.trees.REPTree
+Accuracy: 0.9612618502778686
+Recall: 0.3313782991202346
+Precision: 0.9262295081967213
+F-Messure: 0.24406047516198706
+HammingLoss: 0.002285791443231347
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.meta.Stacking
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.meta.Vote
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.1
+Rakel with class weka.classifiers.rules.ZeroR
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.meta.AdaBoostM1
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.meta.AttributeSelectedClassifier
+Accuracy: 0.9691075514874142
+Recall: 0.46920821114369504
+Precision: 0.9523809523809523
+F-Messure: 0.3143418467583497
+HammingLoss: 0.0018228463408047509
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.meta.Bagging
+Accuracy: 0.9633867276887872
+Recall: 0.3519061583577713
+Precision: 0.975609756097561
+F-Messure: 0.2586206896551724
+HammingLoss: 0.0021604104779908108
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.meta.ClassificationViaRegression
+Accuracy: 0.9728669499836547
+Recall: 0.5278592375366569
+Precision: 0.972972972972973
+F-Messure: 0.34220532319391633
+HammingLoss: 0.00160101847922534
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.meta.CVParameterSelection
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.trees.J48
+Accuracy: 0.98365478914678
+Recall: 0.718475073313783
+Precision: 0.9839357429718876
+F-Messure: 0.4152542372881356
+HammingLoss: 9.644689633887594E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.trees.DecisionStump
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.rules.DecisionTable
+Accuracy: 0.9604445897352076
+Recall: 0.3196480938416422
+Precision: 0.9159663865546218
+F-Messure: 0.23695652173913043
+HammingLoss: 0.0023340148914007845
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.meta.FilteredClassifier
+Accuracy: 0.9684537430532854
+Recall: 0.46920821114369504
+Precision: 0.9302325581395349
+F-Messure: 0.3118908382066277
+HammingLoss: 0.0018614250993403006
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.lazy.IBk
+Accuracy: 0.9968944099378882
+Recall: 0.9824046920821115
+Precision: 0.9626436781609196
+F-Messure: 0.486211901306241
+HammingLoss: 1.83249103043864E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.misc.InputMappedClassifier
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.rules.JRip
+Accuracy: 0.9718862373324616
+Recall: 0.5601173020527859
+Precision: 0.8967136150234741
+F-Messure: 0.34476534296028877
+HammingLoss: 0.0016588866170286645
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.trees.LMT
+Accuracy: 0.9769532526969598
+Recall: 0.592375366568915
+Precision: 0.9901960784313726
+F-Messure: 0.37064220183486246
+HammingLoss: 0.001359901238378151
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.functions.Logistic
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.meta.LogitBoost
+Accuracy: 0.996730957829356
+Recall: 0.9472140762463344
+Precision: 0.9938461538461538
+F-Messure: 0.484984984984985
+HammingLoss: 1.9289379267775156E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.lazy.LWL
+Accuracy: 0.9465511605099706
+Recall: 0.16129032258064516
+Precision: 0.5729166666666666
+F-Messure: 0.12585812356979403
+HammingLoss: 0.0031538135102812163
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.meta.MultiClassClassifier
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.functions.MultilayerPerceptron
+Accuracy: 0.9941157240928408
+Recall: 0.8944281524926686
+Precision: 1.0
+F-Messure: 0.4721362229102167
+HammingLoss: 3.4720882681995316E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.meta.MultiScheme
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.bayes.NaiveBayes
+Accuracy: 0.8953906505393919
+Recall: 0.9442815249266863
+Precision: 0.34146341463414637
+F-Messure: 0.250778816199377
+HammingLoss: 0.0061726013656879805
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.bayes.NaiveBayesMultinomialText
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.bayes.NaiveBayesUpdateable
+Accuracy: 0.8953906505393919
+Recall: 0.9442815249266863
+Precision: 0.34146341463414637
+F-Messure: 0.250778816199377
+HammingLoss: 0.0061726013656879805
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.rules.OneR
+Accuracy: 0.9512912716574043
+Recall: 0.16129032258064516
+Precision: 0.8208955223880597
+F-Messure: 0.13480392156862747
+HammingLoss: 0.0028741175108984805
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.rules.PART
+Accuracy: 0.995096436744034
+Recall: 0.9120234604105572
+Precision: 1.0
+F-Messure: 0.4769938650306748
+HammingLoss: 2.893406890166275E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.meta.RandomCommittee
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.trees.RandomForest
+Accuracy: 0.9995096436744034
+Recall: 0.9912023460410557
+Precision: 1.0
+F-Messure: 0.49779086892488955
+HammingLoss: 2.8934068901662744E-5
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.meta.RandomSubSpace
+Accuracy: 0.9565217391304348
+Recall: 0.2287390029325513
+Precision: 0.9629629629629629
+F-Messure: 0.18483412322274884
+HammingLoss: 0.0025654874426140825
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.trees.RandomTree
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.functions.SimpleLogistic
+Accuracy: 0.9740111147433802
+Recall: 0.5425219941348973
+Precision: 0.9840425531914894
+F-Messure: 0.3497164461247637
+HammingLoss: 0.0015335056517881277
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.functions.SMO
+Accuracy: 0.9882314481856816
+Recall: 0.7917888563049853
+Precision: 0.996309963099631
+F-Messure: 0.4411764705882353
+HammingLoss: 6.944176536399066E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.trees.REPTree
+Accuracy: 0.9612618502778686
+Recall: 0.3313782991202346
+Precision: 0.9262295081967213
+F-Messure: 0.24406047516198706
+HammingLoss: 0.002285791443231347
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.meta.Stacking
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.meta.Vote
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.2
+Rakel with class weka.classifiers.rules.ZeroR
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.meta.AdaBoostM1
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.meta.AttributeSelectedClassifier
+Accuracy: 0.9691075514874142
+Recall: 0.46920821114369504
+Precision: 0.9523809523809523
+F-Messure: 0.3143418467583497
+HammingLoss: 0.0018228463408047509
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.meta.Bagging
+Accuracy: 0.963223275580255
+Recall: 0.3489736070381232
+Precision: 0.9754098360655737
+F-Messure: 0.2570194384449244
+HammingLoss: 0.002170055167624698
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.meta.ClassificationViaRegression
+Accuracy: 0.9733573063092514
+Recall: 0.533724340175953
+Precision: 0.978494623655914
+F-Messure: 0.34535104364326374
+HammingLoss: 0.0015720844103236779
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.meta.CVParameterSelection
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.trees.J48
+Accuracy: 0.98365478914678
+Recall: 0.718475073313783
+Precision: 0.9839357429718876
+F-Messure: 0.4152542372881356
+HammingLoss: 9.644689633887594E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.trees.DecisionStump
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.rules.DecisionTable
+Accuracy: 0.959954233409611
+Recall: 0.30791788856304986
+Precision: 0.9210526315789473
+F-Messure: 0.2307692307692308
+HammingLoss: 0.0023629489603024466
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.meta.FilteredClassifier
+Accuracy: 0.9686171951618175
+Recall: 0.47214076246334313
+Precision: 0.930635838150289
+F-Messure: 0.31322957198443585
+HammingLoss: 0.0018517804097064132
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.lazy.IBk
+Accuracy: 0.9947695325269696
+Recall: 0.9472140762463344
+Precision: 0.9584569732937686
+F-Messure: 0.4764011799410029
+HammingLoss: 3.086300682844027E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.misc.InputMappedClassifier
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.rules.JRip
+Accuracy: 0.9741745668519124
+Recall: 0.5513196480938416
+Precision: 0.9740932642487047
+F-Messure: 0.352059925093633
+HammingLoss: 0.00152386096215424
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.trees.LMT
+Accuracy: 0.9736842105263158
+Recall: 0.5366568914956011
+Precision: 0.9838709677419355
+F-Messure: 0.34724857685009486
+HammingLoss: 0.001552795031055903
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.functions.Logistic
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.meta.LogitBoost
+Accuracy: 0.9972213141549526
+Recall: 0.9530791788856305
+Precision: 0.9969325153374233
+F-Messure: 0.487256371814093
+HammingLoss: 1.6395972377608885E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.lazy.LWL
+Accuracy: 0.946878064727035
+Recall: 0.16129032258064516
+Precision: 0.5851063829787234
+F-Messure: 0.1264367816091954
+HammingLoss: 0.003134524131013441
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.meta.MultiClassClassifier
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.functions.MultilayerPerceptron
+Accuracy: 0.995096436744034
+Recall: 0.9120234604105572
+Precision: 1.0
+F-Messure: 0.4769938650306748
+HammingLoss: 2.893406890166275E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.meta.MultiScheme
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.bayes.NaiveBayes
+Accuracy: 0.8806799607714939
+Recall: 0.9442815249266863
+Precision: 0.3117134559535334
+F-Messure: 0.23435225618631736
+HammingLoss: 0.007040623432737849
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.bayes.NaiveBayesMultinomialText
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.bayes.NaiveBayesUpdateable
+Accuracy: 0.8806799607714939
+Recall: 0.9442815249266863
+Precision: 0.3117134559535334
+F-Messure: 0.23435225618631736
+HammingLoss: 0.007040623432737849
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.rules.OneR
+Accuracy: 0.9512912716574043
+Recall: 0.16129032258064516
+Precision: 0.8208955223880597
+F-Messure: 0.13480392156862747
+HammingLoss: 0.0028741175108984805
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.rules.PART
+Accuracy: 0.9952598888525662
+Recall: 0.9149560117302052
+Precision: 1.0
+F-Messure: 0.47779479326186824
+HammingLoss: 2.796959993827399E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.meta.RandomCommittee
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.trees.RandomForest
+Accuracy: 0.9995096436744034
+Recall: 0.9912023460410557
+Precision: 1.0
+F-Messure: 0.49779086892488955
+HammingLoss: 2.8934068901662744E-5
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.meta.RandomSubSpace
+Accuracy: 0.9576659038901602
+Recall: 0.24926686217008798
+Precision: 0.9659090909090909
+F-Messure: 0.19813519813519812
+HammingLoss: 0.002497974615176871
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.trees.RandomTree
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.functions.SimpleLogistic
+Accuracy: 0.972213141549526
+Recall: 0.5102639296187683
+Precision: 0.9830508474576272
+F-Messure: 0.33590733590733585
+HammingLoss: 0.0016395972377608898
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.functions.SMO
+Accuracy: 0.9888852566198104
+Recall: 0.8035190615835777
+Precision: 0.9963636363636363
+F-Messure: 0.4448051948051948
+HammingLoss: 6.558388951043563E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.trees.REPTree
+Accuracy: 0.9612618502778686
+Recall: 0.3313782991202346
+Precision: 0.9262295081967213
+F-Messure: 0.24406047516198706
+HammingLoss: 0.002285791443231347
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.meta.Stacking
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.meta.Vote
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.30000000000000004
+Rakel with class weka.classifiers.rules.ZeroR
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.meta.AdaBoostM1
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.meta.AttributeSelectedClassifier
+Accuracy: 0.9691075514874142
+Recall: 0.46920821114369504
+Precision: 0.9523809523809523
+F-Messure: 0.3143418467583497
+HammingLoss: 0.0018228463408047509
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.meta.Bagging
+Accuracy: 0.9633867276887872
+Recall: 0.3519061583577713
+Precision: 0.975609756097561
+F-Messure: 0.2586206896551724
+HammingLoss: 0.0021604104779908108
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.meta.ClassificationViaRegression
+Accuracy: 0.9709055246812683
+Recall: 0.49266862170087977
+Precision: 0.9710982658959537
+F-Messure: 0.32684824902723736
+HammingLoss: 0.0017167547548319893
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.meta.CVParameterSelection
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.trees.J48
+Accuracy: 0.98365478914678
+Recall: 0.718475073313783
+Precision: 0.9839357429718876
+F-Messure: 0.4152542372881356
+HammingLoss: 9.644689633887594E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.trees.DecisionStump
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.rules.DecisionTable
+Accuracy: 0.9602811376266753
+Recall: 0.31085043988269795
+Precision: 0.9298245614035088
+F-Messure: 0.23296703296703297
+HammingLoss: 0.002343659581034672
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.meta.FilteredClassifier
+Accuracy: 0.9686171951618175
+Recall: 0.47214076246334313
+Precision: 0.930635838150289
+F-Messure: 0.31322957198443585
+HammingLoss: 0.0018517804097064132
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.lazy.IBk
+Accuracy: 0.9977116704805492
+Recall: 0.9794721407624634
+Precision: 0.9794721407624634
+F-Messure: 0.4897360703812317
+HammingLoss: 1.350256548744261E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.misc.InputMappedClassifier
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.rules.JRip
+Accuracy: 0.9730304020921869
+Recall: 0.5659824046920822
+Precision: 0.919047619047619
+F-Messure: 0.3502722323049002
+HammingLoss: 0.0015913737895914526
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.trees.LMT
+Accuracy: 0.9784243216737496
+Recall: 0.6217008797653959
+Precision: 0.986046511627907
+F-Messure: 0.381294964028777
+HammingLoss: 0.0012730990316731625
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.functions.Logistic
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.meta.LogitBoost
+Accuracy: 0.9972213141549526
+Recall: 0.9560117302052786
+Precision: 0.9939024390243902
+F-Messure: 0.4872944693572496
+HammingLoss: 1.6395972377608885E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.lazy.LWL
+Accuracy: 0.9463877084014384
+Recall: 0.16129032258064516
+Precision: 0.5670103092783505
+F-Messure: 0.12557077625570776
+HammingLoss: 0.0031634581999151036
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.meta.MultiClassClassifier
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.functions.MultilayerPerceptron
+Accuracy: 0.9947695325269696
+Recall: 0.906158357771261
+Precision: 1.0
+F-Messure: 0.47538461538461535
+HammingLoss: 3.086300682844027E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.meta.MultiScheme
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.bayes.NaiveBayes
+Accuracy: 0.8671134357633213
+Recall: 0.9413489736070382
+Precision: 0.2881508078994614
+F-Messure: 0.22061855670103092
+HammingLoss: 0.007841132672350506
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.bayes.NaiveBayesMultinomialText
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.bayes.NaiveBayesUpdateable
+Accuracy: 0.8671134357633213
+Recall: 0.9413489736070382
+Precision: 0.2881508078994614
+F-Messure: 0.22061855670103092
+HammingLoss: 0.007841132672350506
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.rules.OneR
+Accuracy: 0.9512912716574043
+Recall: 0.16129032258064516
+Precision: 0.8208955223880597
+F-Messure: 0.13480392156862747
+HammingLoss: 0.0028741175108984805
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.rules.PART
+Accuracy: 0.995096436744034
+Recall: 0.9149560117302052
+Precision: 0.9968051118210862
+F-Messure: 0.47706422018348627
+HammingLoss: 2.893406890166275E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.meta.RandomCommittee
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.trees.RandomForest
+Accuracy: 0.9996730957829356
+Recall: 0.9941348973607038
+Precision: 1.0
+F-Messure: 0.4985294117647059
+HammingLoss: 1.928937926777516E-5
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.meta.RandomSubSpace
+Accuracy: 0.9573389996730958
+Recall: 0.23460410557184752
+Precision: 1.0
+F-Messure: 0.19002375296912116
+HammingLoss: 0.0025172639944446456
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.trees.RandomTree
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.functions.SimpleLogistic
+Accuracy: 0.9758090879372344
+Recall: 0.5777126099706745
+Precision: 0.9800995024875622
+F-Messure: 0.3634686346863469
+HammingLoss: 0.0014274140658153641
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.functions.SMO
+Accuracy: 0.9883949002942138
+Recall: 0.7947214076246334
+Precision: 0.9963235294117647
+F-Messure: 0.44208809135399674
+HammingLoss: 6.84772964006019E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.trees.REPTree
+Accuracy: 0.9612618502778686
+Recall: 0.3313782991202346
+Precision: 0.9262295081967213
+F-Messure: 0.24406047516198706
+HammingLoss: 0.002285791443231347
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.meta.Stacking
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.meta.Vote
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.4
+Rakel with class weka.classifiers.rules.ZeroR
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.meta.AdaBoostM1
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.meta.AttributeSelectedClassifier
+Accuracy: 0.9694344557044786
+Recall: 0.4750733137829912
+Precision: 0.9529411764705882
+F-Messure: 0.31702544031311153
+HammingLoss: 0.0018035569615369761
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.meta.Bagging
+Accuracy: 0.9635501797973194
+Recall: 0.3548387096774194
+Precision: 0.9758064516129032
+F-Messure: 0.2602150537634409
+HammingLoss: 0.0021507657883569234
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.meta.ClassificationViaRegression
+Accuracy: 0.9748283752860412
+Recall: 0.5630498533724341
+Precision: 0.9746192893401016
+F-Messure: 0.3568773234200744
+HammingLoss: 0.0014852822036186897
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.meta.CVParameterSelection
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.trees.J48
+Accuracy: 0.9831644328211834
+Recall: 0.7096774193548387
+Precision: 0.983739837398374
+F-Messure: 0.41226575809199323
+HammingLoss: 9.934030322904222E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.trees.DecisionStump
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.rules.DecisionTable
+Accuracy: 0.9596273291925466
+Recall: 0.30791788856304986
+Precision: 0.9051724137931034
+F-Messure: 0.22975929978118162
+HammingLoss: 0.002382238339570222
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.meta.FilteredClassifier
+Accuracy: 0.9684537430532854
+Recall: 0.46920821114369504
+Precision: 0.9302325581395349
+F-Messure: 0.3118908382066277
+HammingLoss: 0.0018614250993403006
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.lazy.IBk
+Accuracy: 0.9970578620464204
+Recall: 0.9824046920821115
+Precision: 0.9654178674351584
+F-Messure: 0.4869186046511628
+HammingLoss: 1.7360441340997642E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.misc.InputMappedClassifier
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.rules.JRip
+Accuracy: 0.9745014710689768
+Recall: 0.5777126099706745
+Precision: 0.9425837320574163
+F-Messure: 0.3581818181818182
+HammingLoss: 0.001504571582886465
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.trees.LMT
+Accuracy: 0.9785877737822818
+Recall: 0.624633431085044
+Precision: 0.9861111111111112
+F-Messure: 0.38240574506283664
+HammingLoss: 0.001263454342039275
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.functions.Logistic
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.meta.LogitBoost
+Accuracy: 0.9977116704805492
+Recall: 0.9618768328445748
+Precision: 0.9969604863221885
+F-Messure: 0.4895522388059702
+HammingLoss: 1.350256548744261E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.lazy.LWL
+Accuracy: 0.9465511605099706
+Recall: 0.16129032258064516
+Precision: 0.5729166666666666
+F-Messure: 0.12585812356979403
+HammingLoss: 0.0031538135102812163
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.meta.MultiClassClassifier
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.functions.MultilayerPerceptron
+Accuracy: 0.9944426283099052
+Recall: 0.9002932551319648
+Precision: 1.0
+F-Messure: 0.47376543209876537
+HammingLoss: 3.279194475521779E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.meta.MultiScheme
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.bayes.NaiveBayes
+Accuracy: 0.8595946387708402
+Recall: 0.9384164222873901
+Precision: 0.2763385146804836
+F-Messure: 0.2134756504336224
+HammingLoss: 0.008284788395509328
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.bayes.NaiveBayesMultinomialText
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.bayes.NaiveBayesUpdateable
+Accuracy: 0.8595946387708402
+Recall: 0.9384164222873901
+Precision: 0.2763385146804836
+F-Messure: 0.2134756504336224
+HammingLoss: 0.008284788395509328
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.rules.OneR
+Accuracy: 0.9512912716574043
+Recall: 0.16129032258064516
+Precision: 0.8208955223880597
+F-Messure: 0.13480392156862747
+HammingLoss: 0.0028741175108984805
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.rules.PART
+Accuracy: 0.9955867930696306
+Recall: 0.9237536656891495
+Precision: 0.9968354430379747
+F-Messure: 0.47945205479452047
+HammingLoss: 2.604066201149647E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.meta.RandomCommittee
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.trees.RandomForest
+Accuracy: 0.9995096436744034
+Recall: 0.9912023460410557
+Precision: 1.0
+F-Messure: 0.49779086892488955
+HammingLoss: 2.8934068901662744E-5
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.meta.RandomSubSpace
+Accuracy: 0.9589735207584178
+Recall: 0.2756598240469208
+Precision: 0.9591836734693877
+F-Messure: 0.214123006833713
+HammingLoss: 0.0024208170981057714
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.trees.RandomTree
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.functions.SimpleLogistic
+Accuracy: 0.9728669499836547
+Recall: 0.5249266862170088
+Precision: 0.9781420765027322
+F-Messure: 0.34160305343511443
+HammingLoss: 0.00160101847922534
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.functions.SMO
+Accuracy: 0.9880679960771493
+Recall: 0.7888563049853372
+Precision: 0.9962962962962963
+F-Messure: 0.4402618657937807
+HammingLoss: 7.040623432737942E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.trees.REPTree
+Accuracy: 0.9612618502778686
+Recall: 0.3313782991202346
+Precision: 0.9262295081967213
+F-Messure: 0.24406047516198706
+HammingLoss: 0.002285791443231347
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.meta.Stacking
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.meta.Vote
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.5
+Rakel with class weka.classifiers.rules.ZeroR
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.meta.AdaBoostM1
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.meta.AttributeSelectedClassifier
+Accuracy: 0.9692710035959464
+Recall: 0.46920821114369504
+Precision: 0.9580838323353293
+F-Messure: 0.31496062992125984
+HammingLoss: 0.0018132016511708635
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.meta.Bagging
+Accuracy: 0.963223275580255
+Recall: 0.3489736070381232
+Precision: 0.9754098360655737
+F-Messure: 0.2570194384449244
+HammingLoss: 0.002170055167624698
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.meta.ClassificationViaRegression
+Accuracy: 0.9736842105263158
+Recall: 0.5366568914956011
+Precision: 0.9838709677419355
+F-Messure: 0.34724857685009486
+HammingLoss: 0.001552795031055903
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.meta.CVParameterSelection
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.trees.J48
+Accuracy: 0.9834913370382478
+Recall: 0.7155425219941349
+Precision: 0.9838709677419355
+F-Messure: 0.4142614601018676
+HammingLoss: 9.74113653022647E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.trees.DecisionStump
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.rules.DecisionTable
+Accuracy: 0.9612618502778686
+Recall: 0.3313782991202346
+Precision: 0.9262295081967213
+F-Messure: 0.24406047516198706
+HammingLoss: 0.002285791443231347
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.meta.FilteredClassifier
+Accuracy: 0.9686171951618175
+Recall: 0.47214076246334313
+Precision: 0.930635838150289
+F-Messure: 0.31322957198443585
+HammingLoss: 0.0018517804097064132
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.lazy.IBk
+Accuracy: 0.9968944099378882
+Recall: 0.9618768328445748
+Precision: 0.9820359281437125
+F-Messure: 0.48592592592592593
+HammingLoss: 1.83249103043864E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.misc.InputMappedClassifier
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.rules.JRip
+Accuracy: 0.9753187316116377
+Recall: 0.6099706744868035
+Precision: 0.9203539823008849
+F-Messure: 0.3668430335097002
+HammingLoss: 0.001456348134717027
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.trees.LMT
+Accuracy: 0.9753187316116377
+Recall: 0.5689149560117303
+Precision: 0.9797979797979798
+F-Messure: 0.35992578849721707
+HammingLoss: 0.001456348134717027
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.functions.Logistic
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.meta.LogitBoost
+Accuracy: 0.997548218372017
+Recall: 0.9560117302052786
+Precision: 1.0
+F-Messure: 0.48875562218890556
+HammingLoss: 1.4467034450831368E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.lazy.LWL
+Accuracy: 0.946060804184374
+Recall: 0.16129032258064516
+Precision: 0.5555555555555556
+F-Messure: 0.125
+HammingLoss: 0.0031827475791828784
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.meta.MultiClassClassifier
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.functions.MultilayerPerceptron
+Accuracy: 0.9944426283099052
+Recall: 0.9002932551319648
+Precision: 1.0
+F-Messure: 0.47376543209876537
+HammingLoss: 3.279194475521779E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.meta.MultiScheme
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.bayes.NaiveBayes
+Accuracy: 0.8644982020268062
+Recall: 0.9384164222873901
+Precision: 0.28368794326241137
+F-Messure: 0.21783526208304974
+HammingLoss: 0.007995447706492704
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.bayes.NaiveBayesMultinomialText
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.bayes.NaiveBayesUpdateable
+Accuracy: 0.8644982020268062
+Recall: 0.9384164222873901
+Precision: 0.28368794326241137
+F-Messure: 0.21783526208304974
+HammingLoss: 0.007995447706492704
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.rules.OneR
+Accuracy: 0.9512912716574043
+Recall: 0.16129032258064516
+Precision: 0.8208955223880597
+F-Messure: 0.13480392156862747
+HammingLoss: 0.0028741175108984805
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.rules.PART
+Accuracy: 0.995096436744034
+Recall: 0.9149560117302052
+Precision: 0.9968051118210862
+F-Messure: 0.47706422018348627
+HammingLoss: 2.893406890166275E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.meta.RandomCommittee
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.trees.RandomForest
+Accuracy: 0.9993461915658712
+Recall: 0.9882697947214076
+Precision: 1.0
+F-Messure: 0.4970501474926254
+HammingLoss: 3.857875853555032E-5
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.meta.RandomSubSpace
+Accuracy: 0.9576659038901602
+Recall: 0.24926686217008798
+Precision: 0.9659090909090909
+F-Messure: 0.19813519813519812
+HammingLoss: 0.002497974615176871
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.trees.RandomTree
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.functions.SimpleLogistic
+Accuracy: 0.9728669499836547
+Recall: 0.5278592375366569
+Precision: 0.972972972972973
+F-Messure: 0.34220532319391633
+HammingLoss: 0.00160101847922534
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.functions.SMO
+Accuracy: 0.988558352402746
+Recall: 0.7947214076246334
+Precision: 1.0
+F-Messure: 0.44281045751633985
+HammingLoss: 6.751282743721315E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.trees.REPTree
+Accuracy: 0.9604445897352076
+Recall: 0.31671554252199413
+Precision: 0.9230769230769231
+F-Messure: 0.23580786026200876
+HammingLoss: 0.0023340148914007845
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.meta.Stacking
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.meta.Vote
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.6
+Rakel with class weka.classifiers.rules.ZeroR
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.meta.AdaBoostM1
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.meta.AttributeSelectedClassifier
+Accuracy: 0.9691075514874142
+Recall: 0.46920821114369504
+Precision: 0.9523809523809523
+F-Messure: 0.3143418467583497
+HammingLoss: 0.0018228463408047509
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.meta.Bagging
+Accuracy: 0.9630598234717228
+Recall: 0.3460410557184751
+Precision: 0.9752066115702479
+F-Messure: 0.2554112554112554
+HammingLoss: 0.0021796998572585855
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.meta.ClassificationViaRegression
+Accuracy: 0.9725400457665904
+Recall: 0.5161290322580645
+Precision: 0.9832402234636871
+F-Messure: 0.3384615384615385
+HammingLoss: 0.001620307858493115
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.meta.CVParameterSelection
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.trees.J48
+Accuracy: 0.9834913370382478
+Recall: 0.7155425219941349
+Precision: 0.9838709677419355
+F-Messure: 0.4142614601018676
+HammingLoss: 9.74113653022647E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.trees.DecisionStump
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.rules.DecisionTable
+Accuracy: 0.9622425629290617
+Recall: 0.3489736070381232
+Precision: 0.9296875
+F-Messure: 0.2537313432835821
+HammingLoss: 0.002227923305428023
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.meta.FilteredClassifier
+Accuracy: 0.9686171951618175
+Recall: 0.47214076246334313
+Precision: 0.930635838150289
+F-Messure: 0.31322957198443585
+HammingLoss: 0.0018517804097064132
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.lazy.IBk
+Accuracy: 0.9978751225890814
+Recall: 0.9912023460410557
+Precision: 0.9712643678160919
+F-Messure: 0.49056603773584906
+HammingLoss: 1.2538096524053853E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.misc.InputMappedClassifier
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.rules.JRip
+Accuracy: 0.973847662634848
+Recall: 0.5865102639296188
+Precision: 0.91324200913242
+F-Messure: 0.3571428571428572
+HammingLoss: 0.0015431503414220153
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.trees.LMT
+Accuracy: 0.9797319385420072
+Recall: 0.6422287390029325
+Precision: 0.9909502262443439
+F-Messure: 0.3896797153024911
+HammingLoss: 0.0011959415146020618
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.functions.Logistic
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.meta.LogitBoost
+Accuracy: 0.9973847662634848
+Recall: 0.9530791788856305
+Precision: 1.0
+F-Messure: 0.487987987987988
+HammingLoss: 1.5431503414220125E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.lazy.LWL
+Accuracy: 0.9458973520758418
+Recall: 0.16129032258064516
+Precision: 0.55
+F-Messure: 0.12471655328798187
+HammingLoss: 0.0031923922688167658
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.meta.MultiClassClassifier
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.functions.MultilayerPerceptron
+Accuracy: 0.994279176201373
+Recall: 0.8973607038123167
+Precision: 1.0
+F-Messure: 0.472952086553323
+HammingLoss: 3.375641371860655E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.meta.MultiScheme
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.bayes.NaiveBayes
+Accuracy: 0.8559986923831318
+Recall: 0.9384164222873901
+Precision: 0.2711864406779661
+F-Messure: 0.210387902695595
+HammingLoss: 0.008496971567454851
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.bayes.NaiveBayesMultinomialText
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.bayes.NaiveBayesUpdateable
+Accuracy: 0.8559986923831318
+Recall: 0.9384164222873901
+Precision: 0.2711864406779661
+F-Messure: 0.210387902695595
+HammingLoss: 0.008496971567454851
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.rules.OneR
+Accuracy: 0.9512912716574043
+Recall: 0.16129032258064516
+Precision: 0.8208955223880597
+F-Messure: 0.13480392156862747
+HammingLoss: 0.0028741175108984805
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.rules.PART
+Accuracy: 0.9954233409610984
+Recall: 0.9208211143695014
+Precision: 0.9968253968253968
+F-Messure: 0.47865853658536583
+HammingLoss: 2.700513097488523E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.meta.RandomCommittee
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.trees.RandomForest
+Accuracy: 0.9993461915658712
+Recall: 0.9882697947214076
+Precision: 1.0
+F-Messure: 0.4970501474926254
+HammingLoss: 3.857875853555032E-5
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.meta.RandomSubSpace
+Accuracy: 0.9578293559986923
+Recall: 0.24926686217008798
+Precision: 0.9770114942528736
+F-Messure: 0.1985981308411215
+HammingLoss: 0.0024883299255429835
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.trees.RandomTree
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.functions.SimpleLogistic
+Accuracy: 0.9758090879372344
+Recall: 0.5747800586510264
+Precision: 0.9849246231155779
+F-Messure: 0.36296296296296293
+HammingLoss: 0.0014274140658153641
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.functions.SMO
+Accuracy: 0.988558352402746
+Recall: 0.7976539589442815
+Precision: 0.9963369963369964
+F-Messure: 0.4429967426710098
+HammingLoss: 6.751282743721315E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.trees.REPTree
+Accuracy: 0.961588754494933
+Recall: 0.3313782991202346
+Precision: 0.9416666666666667
+F-Messure: 0.24511930585683298
+HammingLoss: 0.0022665020639635724
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.meta.Stacking
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.meta.Vote
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7
+Rakel with class weka.classifiers.rules.ZeroR
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.meta.AdaBoostM1
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.meta.AttributeSelectedClassifier
+Accuracy: 0.9694344557044786
+Recall: 0.4750733137829912
+Precision: 0.9529411764705882
+F-Messure: 0.31702544031311153
+HammingLoss: 0.0018035569615369761
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.meta.Bagging
+Accuracy: 0.9627329192546584
+Recall: 0.34017595307917886
+Precision: 0.9747899159663865
+F-Messure: 0.25217391304347825
+HammingLoss: 0.0021989892365263607
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.meta.ClassificationViaRegression
+Accuracy: 0.9727034978751226
+Recall: 0.5249266862170088
+Precision: 0.9728260869565217
+F-Messure: 0.34095238095238095
+HammingLoss: 0.0016106631688592274
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.meta.CVParameterSelection
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.trees.J48
+Accuracy: 0.9839816933638444
+Recall: 0.7243401759530792
+Precision: 0.9840637450199203
+F-Messure: 0.4172297297297297
+HammingLoss: 9.451795841209842E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.trees.DecisionStump
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.rules.DecisionTable
+Accuracy: 0.9630598234717228
+Recall: 0.36363636363636365
+Precision: 0.9323308270676691
+F-Messure: 0.2616033755274262
+HammingLoss: 0.0021796998572585855
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.meta.FilteredClassifier
+Accuracy: 0.9687806472703497
+Recall: 0.4750733137829912
+Precision: 0.9310344827586207
+F-Messure: 0.31456310679611654
+HammingLoss: 0.0018421357200725256
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.lazy.IBk
+Accuracy: 0.9957502451781628
+Recall: 0.9882697947214076
+Precision: 0.9387186629526463
+F-Messure: 0.48142857142857143
+HammingLoss: 2.507619304810771E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.misc.InputMappedClassifier
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.rules.JRip
+Accuracy: 0.9753187316116377
+Recall: 0.6041055718475073
+Precision: 0.9279279279279279
+F-Messure: 0.36589698046181174
+HammingLoss: 0.001456348134717027
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.trees.LMT
+Accuracy: 0.9758090879372344
+Recall: 0.5718475073313783
+Precision: 0.9898477157360406
+F-Messure: 0.36245353159851296
+HammingLoss: 0.0014274140658153641
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.functions.Logistic
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.meta.LogitBoost
+Accuracy: 0.9972213141549526
+Recall: 0.9501466275659824
+Precision: 1.0
+F-Messure: 0.48721804511278194
+HammingLoss: 1.6395972377608885E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.lazy.LWL
+Accuracy: 0.946060804184374
+Recall: 0.16129032258064516
+Precision: 0.5555555555555556
+F-Messure: 0.125
+HammingLoss: 0.0031827475791828784
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.meta.MultiClassClassifier
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.functions.MultilayerPerceptron
+Accuracy: 0.9944426283099052
+Recall: 0.9002932551319648
+Precision: 1.0
+F-Messure: 0.47376543209876537
+HammingLoss: 3.279194475521779E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.meta.MultiScheme
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.bayes.NaiveBayes
+Accuracy: 0.8568159529257927
+Recall: 0.9325513196480938
+Precision: 0.27156276686592656
+F-Messure: 0.21031746031746035
+HammingLoss: 0.008448748119285414
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.bayes.NaiveBayesMultinomialText
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.bayes.NaiveBayesUpdateable
+Accuracy: 0.8568159529257927
+Recall: 0.9325513196480938
+Precision: 0.27156276686592656
+F-Messure: 0.21031746031746035
+HammingLoss: 0.008448748119285414
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.rules.OneR
+Accuracy: 0.9514547237659365
+Recall: 0.16422287390029325
+Precision: 0.8235294117647058
+F-Messure: 0.13691931540342298
+HammingLoss: 0.002864472821264593
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.rules.PART
+Accuracy: 0.9954233409610984
+Recall: 0.9208211143695014
+Precision: 0.9968253968253968
+F-Messure: 0.47865853658536583
+HammingLoss: 2.700513097488523E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.meta.RandomCommittee
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.trees.RandomForest
+Accuracy: 0.9995096436744034
+Recall: 0.9912023460410557
+Precision: 1.0
+F-Messure: 0.49779086892488955
+HammingLoss: 2.8934068901662744E-5
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.meta.RandomSubSpace
+Accuracy: 0.9593004249754822
+Recall: 0.2727272727272727
+Precision: 0.9893617021276596
+F-Messure: 0.21379310344827585
+HammingLoss: 0.0024015277188379966
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.trees.RandomTree
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.functions.SimpleLogistic
+Accuracy: 0.9733573063092514
+Recall: 0.5278592375366569
+Precision: 0.989010989010989
+F-Messure: 0.3441682600382409
+HammingLoss: 0.0015720844103236779
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.functions.SMO
+Accuracy: 0.9883949002942138
+Recall: 0.7947214076246334
+Precision: 0.9963235294117647
+F-Messure: 0.44208809135399674
+HammingLoss: 6.84772964006019E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.trees.REPTree
+Accuracy: 0.9619156587119974
+Recall: 0.33724340175953077
+Precision: 0.9426229508196722
+F-Messure: 0.24838012958963282
+HammingLoss: 0.0022472126846957976
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.meta.Stacking
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.meta.Vote
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.7999999999999999
+Rakel with class weka.classifiers.rules.ZeroR
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.meta.AdaBoostM1
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.meta.AttributeSelectedClassifier
+Accuracy: 0.968944099378882
+Recall: 0.46920821114369504
+Precision: 0.9467455621301775
+F-Messure: 0.3137254901960784
+HammingLoss: 0.0018324910304386383
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.meta.Bagging
+Accuracy: 0.963223275580255
+Recall: 0.3460410557184751
+Precision: 0.9833333333333333
+F-Messure: 0.2559652928416486
+HammingLoss: 0.002170055167624698
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.meta.ClassificationViaRegression
+Accuracy: 0.9745014710689768
+Recall: 0.5483870967741935
+Precision: 0.9894179894179894
+F-Messure: 0.35283018867924526
+HammingLoss: 0.001504571582886465
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.meta.CVParameterSelection
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.trees.J48
+Accuracy: 0.982837528604119
+Recall: 0.7067448680351907
+Precision: 0.9796747967479674
+F-Messure: 0.41056218057921634
+HammingLoss: 0.0010126924115581974
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.trees.DecisionStump
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.rules.DecisionTable
+Accuracy: 0.9619156587119974
+Recall: 0.34310850439882695
+Precision: 0.9285714285714286
+F-Messure: 0.2505353319057816
+HammingLoss: 0.0022472126846957976
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.meta.FilteredClassifier
+Accuracy: 0.9684537430532854
+Recall: 0.46920821114369504
+Precision: 0.9302325581395349
+F-Messure: 0.3118908382066277
+HammingLoss: 0.0018614250993403006
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.lazy.IBk
+Accuracy: 0.9990192873488069
+Recall: 0.9853372434017595
+Precision: 0.9970326409495549
+F-Messure: 0.4955752212389381
+HammingLoss: 5.7868137803325475E-5
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.misc.InputMappedClassifier
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.rules.JRip
+Accuracy: 0.9767898005884276
+Recall: 0.5953079178885631
+Precision: 0.9806763285024155
+F-Messure: 0.3704379562043796
+HammingLoss: 0.0013695459280120385
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.trees.LMT
+Accuracy: 0.9774436090225563
+Recall: 0.6011730205278593
+Precision: 0.9903381642512077
+F-Messure: 0.3740875912408759
+HammingLoss: 0.0013309671694764881
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.functions.Logistic
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.meta.LogitBoost
+Accuracy: 0.9970578620464204
+Recall: 0.9472140762463344
+Precision: 1.0
+F-Messure: 0.4864457831325301
+HammingLoss: 1.7360441340997642E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.lazy.LWL
+Accuracy: 0.9465511605099706
+Recall: 0.16129032258064516
+Precision: 0.5729166666666666
+F-Messure: 0.12585812356979403
+HammingLoss: 0.0031538135102812163
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.meta.MultiClassClassifier
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.functions.MultilayerPerceptron
+Accuracy: 0.9946060804184373
+Recall: 0.9032258064516129
+Precision: 1.0
+F-Messure: 0.47457627118644063
+HammingLoss: 3.182747579182903E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.meta.MultiScheme
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.bayes.NaiveBayes
+Accuracy: 0.8484798953906505
+Recall: 0.9354838709677419
+Precision: 0.26062091503267976
+F-Messure: 0.20383386581469648
+HammingLoss: 0.008940627290613672
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.bayes.NaiveBayesMultinomialText
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.bayes.NaiveBayesUpdateable
+Accuracy: 0.8484798953906505
+Recall: 0.9354838709677419
+Precision: 0.26062091503267976
+F-Messure: 0.20383386581469648
+HammingLoss: 0.008940627290613672
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.rules.OneR
+Accuracy: 0.9512912716574043
+Recall: 0.16129032258064516
+Precision: 0.8208955223880597
+F-Messure: 0.13480392156862747
+HammingLoss: 0.0028741175108984805
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.rules.PART
+Accuracy: 0.9954233409610984
+Recall: 0.9208211143695014
+Precision: 0.9968253968253968
+F-Messure: 0.47865853658536583
+HammingLoss: 2.700513097488523E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.meta.RandomCommittee
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.trees.RandomForest
+Accuracy: 0.9996730957829356
+Recall: 0.9941348973607038
+Precision: 1.0
+F-Messure: 0.4985294117647059
+HammingLoss: 1.928937926777516E-5
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.meta.RandomSubSpace
+Accuracy: 0.9568486433474992
+Recall: 0.2316715542521994
+Precision: 0.9753086419753086
+F-Messure: 0.18720379146919433
+HammingLoss: 0.0025461980633463078
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.trees.RandomTree
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.functions.SimpleLogistic
+Accuracy: 0.977116704805492
+Recall: 0.5953079178885631
+Precision: 0.9902439024390244
+F-Messure: 0.3717948717948718
+HammingLoss: 0.0013502565487442633
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.functions.SMO
+Accuracy: 0.9880679960771493
+Recall: 0.7888563049853372
+Precision: 0.9962962962962963
+F-Messure: 0.4402618657937807
+HammingLoss: 7.040623432737942E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.trees.REPTree
+Accuracy: 0.9620791108205295
+Recall: 0.34017595307917886
+Precision: 0.943089430894309
+F-Messure: 0.25
+HammingLoss: 0.0022375679950619102
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.meta.Stacking
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.meta.Vote
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.8999999999999999
+Rakel with class weka.classifiers.rules.ZeroR
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.meta.AdaBoostM1
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.meta.AttributeSelectedClassifier
+Accuracy: 0.9691075514874142
+Recall: 0.47214076246334313
+Precision: 0.9470588235294117
+F-Messure: 0.3150684931506849
+HammingLoss: 0.0018228463408047509
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.meta.Bagging
+Accuracy: 0.9630598234717228
+Recall: 0.34310850439882695
+Precision: 0.9831932773109243
+F-Messure: 0.2543478260869565
+HammingLoss: 0.0021796998572585855
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.meta.ClassificationViaRegression
+Accuracy: 0.9733573063092514
+Recall: 0.533724340175953
+Precision: 0.978494623655914
+F-Messure: 0.34535104364326374
+HammingLoss: 0.0015720844103236779
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.meta.CVParameterSelection
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.trees.J48
+Accuracy: 0.9821837201699902
+Recall: 0.7008797653958945
+Precision: 0.9715447154471545
+F-Messure: 0.40715502555366273
+HammingLoss: 0.0010512711700937478
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.trees.DecisionStump
+Accuracy: 0.9449166394246485
+Recall: 0.16715542521994134
+Precision: 0.5181818181818182
+F-Messure: 0.12638580931263857
+HammingLoss: 0.0032502604066200905
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.rules.DecisionTable
+Accuracy: 0.9596273291925466
+Recall: 0.30791788856304986
+Precision: 0.9051724137931034
+F-Messure: 0.22975929978118162
+HammingLoss: 0.002382238339570222
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.meta.FilteredClassifier
+Accuracy: 0.9677999346191566
+Recall: 0.4604105571847507
+Precision: 0.9235294117647059
+F-Messure: 0.30724070450097846
+HammingLoss: 0.0019000038578758504
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.lazy.IBk
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.misc.InputMappedClassifier
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.rules.JRip
+Accuracy: 0.9759725400457666
+Recall: 0.5982404692082112
+Precision: 0.9532710280373832
+F-Messure: 0.3675675675675676
+HammingLoss: 0.0014177693761814765
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.trees.LMT
+Accuracy: 0.9780974174566852
+Recall: 0.6129032258064516
+Precision: 0.990521327014218
+F-Messure: 0.3786231884057971
+HammingLoss: 0.0012923884109409377
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.functions.Logistic
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.meta.LogitBoost
+Accuracy: 0.9964040536122916
+Recall: 0.9413489736070382
+Precision: 0.9938080495356038
+F-Messure: 0.48343373493975905
+HammingLoss: 2.1218317194552676E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.lazy.LWL
+Accuracy: 0.9470415168355671
+Recall: 0.16129032258064516
+Precision: 0.5913978494623656
+F-Messure: 0.12672811059907835
+HammingLoss: 0.0031248794413795537
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.meta.MultiClassClassifier
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.functions.MultilayerPerceptron
+Accuracy: 0.9931350114416476
+Recall: 0.8768328445747801
+Precision: 1.0
+F-Messure: 0.4671875
+HammingLoss: 4.0507696462327875E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.meta.MultiScheme
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.bayes.NaiveBayes
+Accuracy: 0.847172278522393
+Recall: 0.9296187683284457
+Precision: 0.25814332247557004
+F-Messure: 0.20203951561504147
+HammingLoss: 0.00901778480768477
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.bayes.NaiveBayesMultinomialText
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.bayes.NaiveBayesUpdateable
+Accuracy: 0.847172278522393
+Recall: 0.9296187683284457
+Precision: 0.25814332247557004
+F-Messure: 0.20203951561504147
+HammingLoss: 0.00901778480768477
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.rules.OneR
+Accuracy: 0.951781627983001
+Recall: 0.16129032258064516
+Precision: 0.859375
+F-Messure: 0.13580246913580246
+HammingLoss: 0.0028451834419968183
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.rules.PART
+Accuracy: 0.9955867930696306
+Recall: 0.9237536656891495
+Precision: 0.9968354430379747
+F-Messure: 0.47945205479452047
+HammingLoss: 2.604066201149647E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.meta.RandomCommittee
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.trees.RandomForest
+Accuracy: 0.9996730957829356
+Recall: 0.9941348973607038
+Precision: 1.0
+F-Messure: 0.4985294117647059
+HammingLoss: 1.928937926777516E-5
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.meta.RandomSubSpace
+Accuracy: 0.9571755475645636
+Recall: 0.2375366568914956
+Precision: 0.9759036144578314
+F-Messure: 0.19103773584905662
+HammingLoss: 0.002526908684078533
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.trees.RandomTree
+Accuracy: 1.0
+Recall: 1.0
+Precision: 1.0
+F-Messure: 0.5
+HammingLoss: 0.0
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.functions.SimpleLogistic
+Accuracy: 0.97548218372017
+Recall: 0.5689149560117303
+Precision: 0.9847715736040609
+F-Messure: 0.36059479553903345
+HammingLoss: 0.0014467034450831393
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.functions.SMO
+Accuracy: 0.9880679960771493
+Recall: 0.7888563049853372
+Precision: 0.9962962962962963
+F-Messure: 0.4402618657937807
+HammingLoss: 7.040623432737942E-4
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.trees.REPTree
+Accuracy: 0.9606080418437398
+Recall: 0.31378299120234604
+Precision: 0.9385964912280702
+F-Messure: 0.2351648351648352
+HammingLoss: 0.002324370201766897
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.meta.Stacking
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.meta.Vote
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+
+Experiment title: Dataset 0
+Missing: 0.9999999999999999
+Rakel with class weka.classifiers.rules.ZeroR
+Accuracy: 0.9442628309905198
+Recall: 0.0
+Precision: NaN
+F-Messure: NaN
+HammingLoss: 0.00328883916515564
+ 
+

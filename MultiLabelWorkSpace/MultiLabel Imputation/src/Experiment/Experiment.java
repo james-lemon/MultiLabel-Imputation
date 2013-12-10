@@ -25,10 +25,14 @@ public class Experiment implements IExperiment {
 	{
 		_metaData = new ComputeMultiLabelDatasetMetaData(_dataset);
 		MissingValueMultiLabelDatasetMetaDataset info = _metaData.calculate();
-		
+		int numOfMissing = info.NumberOfMissingLabels;
+		System.out.println(numOfMissing);
+		int knownPostives = info.knownPostives;
+		int knownNegatives = info.knownNegatives;
+		MultiLabelInstances orginal = _dataset.clone();
 		PredictionsWithExperiment predictions = _predict.Run(_dataset);
 		EvaluationWithExperiment output = new EvaluationWithExperiment();
-		output.evaluation = new ImputationEvaluation(GRANDTRUTH, predictions.data, info.NumberOfMissingLabels);
+		output.evaluation = new ImputationEvaluation(GRANDTRUTH, predictions.data,  orginal, _metaData);
 		output.experiment = predictions.experiementName;
 		
 		

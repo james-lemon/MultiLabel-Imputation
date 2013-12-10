@@ -24,9 +24,10 @@ public class MissingValueGenerator {
 		{
 			for(int j = 0; j < numLabels; j++)
 			{
-				if(randomGenerator.nextDouble() > RatioOfMissingValues)
+				if(randomGenerator.nextDouble() < RatioOfMissingValues)
 				{
-					instances.get(i).setMissing(j);;
+					
+					instances.get(i).setMissing(completeDataset.getLabelIndices()[j]);;
 				}
 			}
 		}
